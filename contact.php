@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/contact.css?v=<?=time();?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <div class="main-container" >
+        <div id="navbar">
+            <a href="#EVENT" class="animate__animated animate__heartBeat">CONTACT</a>
+            <a href="work.php" class="animate__animated animate__heartBeat">ผลงาน</a>
+            <a href="#EVENT" class="animate__animated animate__heartBeat">ราคาถ่ายภาพต่างๆ</a>
+            <a href="#EVENT" class="animate__animated animate__heartBeat">EVENT</a>
+            <a href="#WEDDING" class="animate__animated animate__heartBeat">WEDDING</a>
+            <a href="#PREWEDDING" class="animate__animated animate__heartBeat">PRE WEDDING</a>
+            <a href="#GRADUATION" class="animate__animated animate__heartBeat">GRADUATION</a>
+            <a href="#HOME" class="animate__animated animate__heartBeat">HOME</a>
+            <div class="navbar-left">
+                <a style="margin-left: 20px;" href="#HOME" class="animate__animated animate__heartBeat">รับจ้างถ่ายรูปภาพ</a>
+            </div>
+        </div>
+        <div class="mainbody">
+            <h1>Contact</h1>
+            <br>
+            <h3>คุณสามารถติดต่อเราได้ตามที่อยู่นี้</h3>
+            <br>
+            <br>
+            <div class="bodybutton">
+                <button class="facebookbutton">
+                    <i class="fa fa-facebook"></i>
+                    <a href="#">
+                        Facebook
+                    </a>        
+                </button>
+                <button class="linebutton">
+                    <a href="#">
+                        <img src="img/Icon-Line.png">Line
+                    </a>   
+                </button>
+            </div>
+            <br>
+            <br>
+            <h3>Line ID: @bboyphoto ●  092-314-3010</h3>
+        </div>
+    </div>
+</div>
+</body>
+</html>
