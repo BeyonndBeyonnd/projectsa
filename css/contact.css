@@ -82,6 +82,11 @@ html,body{
     padding: 7px;
     border-radius: 20px;
     border: 0px;
+    transition: all 200ms;
+}
+
+.facebookbutton:hover{
+    padding: 7px 20px;
 }
 
 .facebookbutton i{
@@ -93,10 +98,6 @@ html,body{
     text-decoration: none;
 }
 
-.facebookbutton a:hover{
-    color: #FFD800 ;
-}
-
 .linebutton{
     text-align: center;
     color: white;
@@ -104,6 +105,7 @@ html,body{
     padding: 7px 10px;
     border-radius: 20px;
     border: 0px;
+    transition: all 200ms;
 }
 
 .linebutton img{
@@ -117,6 +119,6 @@ html,body{
     text-decoration: none;
 }
 
-.linebutton a:hover{
-    color: #FFD800 ;
+.linebutton:hover{
+    padding: 7px 20px;
 }

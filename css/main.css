@@ -68,6 +68,7 @@ html,body{
 }
 
 .banner-head-top {
+    margin-top: -100px;
     background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
