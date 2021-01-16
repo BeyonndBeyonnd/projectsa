@@ -19,7 +19,6 @@
     <div class="main-container" >
         <div id="navbar">
             <a href="contact.php" class="animate__animated animate__heartBeat">CONTACT</a>
-            <a href="work.php" class="animate__animated animate__heartBeat">ผลงาน</a>
             <a href="price.php" class="animate__animated animate__heartBeat">ราคาถ่ายภาพต่างๆ</a>
             <a href="#EVENT" class="animate__animated animate__heartBeat">EVENT</a>
             <a href="#WEDDING" class="animate__animated animate__heartBeat">WEDDING</a>
