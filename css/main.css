@@ -89,6 +89,7 @@ html,body{
     justify-content: center;
     text-align: center;
     background-color: #F7F7F7;
+    overflow: hidden;
 }
 
 .body1{

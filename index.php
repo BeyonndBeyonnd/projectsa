@@ -26,7 +26,7 @@
             <a href="graduation.php" class="animate__animated animate__heartBeat">GRADUATION</a>
             <a href="index.php" class="animate__animated animate__heartBeat">HOME</a>
             <div class="navbar-left">
-                <a style="margin-left: 20px;" href="#HOME" class="animate__animated animate__heartBeat">Photographer</a>
+                <a style="margin-left: 20px;" href="#HOME" class="animate__animated animate__wobble">Photographer</a>
             </div>
         </div>
         <div class="headinfo">
@@ -95,32 +95,34 @@
             </div>
         </div>
         <div class="bodyinfo">
-            <div class="body1">
-                <h3 class="h3header">Photographer</h3>
-                <h3 class="h3body">ประสบการณ์มากมาย จากงานและสถานการณ์ถ่ายภาพหลายรูปแบบ จึงวางใจได้ว่าทุกช่วงเวลาที่สำคัญของคุณลูกค้า จะไม่เกิดข้อผิดพลาดอย่างแน่นอนครับ by Photographer ช่างภาพอารมณ์ดี</h3>
-                <hr style="width:100%; border:1px solid #DADADA;">
-                <h3 class="h3footer">ติดต่อทีมงาน</h3>
-                <div class="bodybutton">
-                    <button class="facebookbutton">
-                        <a href="#">
-                            <i class="fa fa-facebook"></i>
-                            Facebook
-                        </a>        
-                    </button>
-                    <button class="linebutton">
-                        <a href="#">
-                            <img src="img/Icon-Line.png">Line
-                        </a>   
-                    </button>
+            <main class="animate__animated animate__bounceInDown">
+                <div class="body1">
+                    <h3 class="h3header">Photographer</h3>
+                    <h3 class="h3body">ประสบการณ์มากมาย จากงานและสถานการณ์ถ่ายภาพหลายรูปแบบ จึงวางใจได้ว่าทุกช่วงเวลาที่สำคัญของคุณลูกค้า จะไม่เกิดข้อผิดพลาดอย่างแน่นอนครับ by Photographer ช่างภาพอารมณ์ดี</h3>
+                    <hr style="width:100%; border:1px solid #DADADA;">
+                    <h3 class="h3footer">ติดต่อทีมงาน</h3>
+                    <div class="bodybutton">
+                        <button class="facebookbutton">
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                                Facebook
+                            </a>        
+                        </button>
+                        <button class="linebutton">
+                            <a href="#">
+                                <img src="img/Icon-Line.png">Line
+                            </a>   
+                        </button>
+                    </div>
+                    <h3 class="h3footer2">
+                        <i class="fa fa-comment" ></i> Line ID: @bboyphoto
+                        <br>
+                        <br>
+                        <i class="fa fa-phone-square"></i> 092-314-3010
+                    </h3>
+                    <hr style="width:100%; border:1px solid #DADADA;">
                 </div>
-                <h3 class="h3footer2">
-                    <i class="fa fa-comment" ></i> Line ID: @bboyphoto
-                    <br>
-                    <br>
-                    <i class="fa fa-phone-square"></i> 092-314-3010
-                </h3>
-                <hr style="width:100%; border:1px solid #DADADA;">
-            </div>
+            </main>
         </div>
     </div>
 </div>
