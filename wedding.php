@@ -27,7 +27,7 @@
             <a href="graduation.php" class="animate__animated animate__heartBeat">GRADUATION</a>
             <a href="index.php" class="animate__animated animate__heartBeat">HOME</a>
             <div class="navbar-left">
-                <a style="margin-left: 20px;" href="#HOME" class="animate__animated animate__heartBeat">รับจ้างถ่ายรูปภาพ</a>
+                <a style="margin-left: 20px;" href="#HOME" class="animate__animated animate__heartBeat">Photographer</a>
             </div>
         </div>
         <div class="mainbody">
