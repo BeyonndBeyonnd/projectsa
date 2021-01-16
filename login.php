@@ -34,7 +34,7 @@
                     <a href="#" class="btn effect01" target="_blank"><span>สมัครสมาชิก</span></a>
                 </div>
             </div>
-
+            <a href="index.php">กลับสู่หน้าหลัก</a>
             <br>
             <br>
             <p>Copyright Website Photographer © 2021 Design by หำใหญ่ทีม</p>
