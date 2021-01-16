@@ -128,5 +128,10 @@
         </div>
     </div>
 </div>
+<footer>
+    <div class="foot">
+        <span>Copyright Website Photographer © 2021 Design by หำใหญ่ทีม</span>
+    </div>
+</footer>
 </body>
 </html>

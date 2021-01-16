@@ -242,3 +242,14 @@ html,body{
     font-size: 18px;
     
 }
+
+.foot{
+    text-align: center;
+    font-size: 13px;
+    border-top: 2px solid rgb(0,0,0,0.2);
+    background: #eeeeee;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    transition: all 500ms linear;
+  }
