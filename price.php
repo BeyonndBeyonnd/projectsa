@@ -18,6 +18,7 @@
 <body>
     <div class="main-container" >
         <div id="navbar">
+            <a href="login.php" class="animate__animated animate__heartBeat">เข้าสู่ระบบ</a>
             <a href="contact.php" class="animate__animated animate__heartBeat">CONTACT</a>
             <a href="price.php" class="animate__animated animate__heartBeat">ราคาถ่ายภาพต่างๆ</a>
             <a href="#EVENT" class="animate__animated animate__heartBeat">EVENT</a>
