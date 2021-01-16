@@ -51,7 +51,7 @@
             </div>
             <br>
             <br>              
-                <h3>Line ID: @bboyphoto ● 099-999-9999</h3>
+                <h3>Line ID: @bboyphoto ● 099-999-9998</h3>
                 <div class="linear">
                     <img src="img/2.png">
                 </div>       
