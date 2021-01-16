@@ -58,3 +58,446 @@ html,body{
     border-radius: 4px;
     transition: all 100ms;
 }
+
+.mainbody{
+    padding: 100px;
+}
+
+.mainbody h1{
+    color: dimgray;
+    text-align: center;
+}
+.mainbody h3{
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.bodybutton{
+    text-align: center;
+}
+
+.facebookbutton{
+    text-align: center;
+    color: white;
+    background-color: #3746BA;
+    padding: 7px;
+    border-radius: 20px;
+    border: 0px;
+    transition: all 200ms;
+}
+
+.facebookbutton:hover{
+    padding: 7px 20px;
+}
+
+.facebookbutton i{
+    margin-right: 5px;
+}
+
+.facebookbutton a{
+    color: white;
+    text-decoration: none;
+}
+
+.linebutton{
+    text-align: center;
+    color: white;
+    background-color: #10A724;
+    padding: 7px 10px;
+    border-radius: 20px;
+    border: 0px;
+    transition: all 200ms;
+}
+
+.linebutton img{
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+.linebutton a{
+    color: white;
+    text-decoration: none;
+}
+
+.linebutton:hover{
+    padding: 7px 20px;
+}
+
+
+.linear{
+    margin: auto;
+    text-align: center;
+}
+
+.linear img{
+    width: 375px;
+    height: 50px;
+}
+.congrad{
+    text-align: center;
+    margin-top: 40px;  
+}
+.congrad img{
+    width: 50%;
+    border: 3px solid gray;
+}
+.congrad h3{
+    margin-top: 25px;
+    font-size: 30px;
+    color: gray;
+}
+.congrad h4{
+    margin-top: 50px;
+    margin-left: -350px;
+    font-size: 22px;
+    color: gray;
+}
+.h51{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: -310px;
+    color: gray;
+}
+.h52{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: -275px;
+    color: gray;
+}
+.h53{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: -110px;
+    color: gray;
+}
+.h61{
+    margin-top: 55px;
+    font-size: 22px;
+    margin-left: -610px;
+    color: gray;
+}
+.h62{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: -610px;
+    color: gray;
+}
+.h63{
+    font-size: 18px;
+    margin-left: -620px;
+    color: gray;
+}
+.h64{
+    font-size: 18px;
+    margin-left: -550px;
+    color: gray;
+}
+.h65{
+    font-size: 18px;
+    margin-left: -525px;
+    color: gray;
+}
+.h66{
+    font-size: 18px;
+    margin-left: -590px;
+    color: gray;
+}
+.h71{
+    margin-top: 45px;
+    margin-left: -420px;
+    font-size: 22px;
+    color: gray;
+}
+.h72{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: -645px;
+    color: gray;
+}
+.h73{
+    font-size: 18px;
+    margin-left: -645px;
+    color: gray;
+}
+.h81{
+    margin-top: 45px;
+    font-size: 22px;
+    margin-left: -640px;
+    color: gray;
+}
+.h82{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: -490px;
+    color: gray;
+}
+.h83{
+    font-size: 18px;
+    margin-left: -630px;
+    color: gray;
+}
+.h84{
+    font-size: 18px;
+    margin-left: -568px;
+    color: gray;
+}
+.h85{
+    font-size: 18px;
+    margin-left: -597px;
+    color: gray;
+}
+.h91{
+    margin-top: 45px;
+    font-size: 22px;
+    margin-left: -687px;
+    color: gray;
+}
+.h92{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: -350px;
+    color: gray;
+}
+.h93{
+    font-size: 18px;
+    margin-left: -552px;
+    color: gray;
+}
+.h94{
+    font-size: 18px;
+    margin-left: -590px;
+    color: gray;
+}
+.h95{
+    font-size: 18px;
+    margin-left: -505px;
+    color: gray;
+}
+.prewedding{
+    text-align: center;
+    margin-top: 80px;  
+    color: gray;
+}
+.prewedding img{
+    width: 50%;
+    border: 3px solid gray;
+}
+.p{
+    margin-top: 25px;
+    font-size: 30px;
+    color: gray;
+}
+.p1{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: -655px;
+    color: gray;
+}
+.p2{
+    font-size: 18px;
+    margin-left: -655px;
+    color: gray;
+}
+.p3{
+    font-size: 18px;
+    margin-left: -532px;
+    color: gray;
+}
+.p4{
+    font-size: 18px;
+    margin-left: -590px;
+    color: gray;
+}
+.p5{
+    font-size: 18px;
+    margin-left: -385px;
+    color: gray;
+}
+.p6{
+    font-size: 18px;
+    margin-left: -490px;
+    color: gray;
+}
+.wedding{
+    text-align: center;
+    margin-top: 80px;  
+    color: gray;
+}
+.wedding img{
+    width: 50%;
+    border: 3px solid gray;
+}
+.w{
+    margin-top: 25px;
+    font-size: 30px;
+    color: gray;
+}
+.w1{
+    margin-top: 45px;
+    font-size: 22px;
+    margin-left: -765px;
+    color: gray;
+}
+.w2{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: -680px;
+    color: gray;
+}
+.w3{
+    font-size: 18px;
+    margin-left: -670px;
+    color: gray;
+}
+.w4{
+    margin-top: 45px;
+    font-size: 22px;
+    margin-left: -763px;
+    color: gray;
+}
+.w5{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: -570px;
+    color: gray;
+}
+.w6{
+    font-size: 18px;
+    margin-left: -568px;
+    color: gray;
+}
+.w7{
+    margin-top: 45px;
+    font-size: 22px;
+    margin-left: -630px;
+    color: gray;
+}
+.w8{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: -571px;
+    color: gray;
+}
+.w9{
+    font-size: 18px;
+    margin-left: -565px;
+    color: gray;
+}
+.w10{
+    margin-top: 45px;
+    font-size: 22px;
+    margin-left: -650px;
+    color: gray;
+}
+.w11{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: -571px;
+    color: gray;
+}
+.w12{
+    font-size: 18px;
+    margin-left: -565px;
+    color: gray;
+}
+.w13{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: -108px;
+    color: gray;
+}
+.w14{
+    font-size: 18px;
+    margin-left: -562px;
+    color: gray;
+}
+.w15{
+    font-size: 18px;
+    margin-left: -633px;
+    color: gray;
+}
+.w16{
+    font-size: 18px;
+    margin-left: -367px;
+    color: gray;
+}
+.w17{
+    font-size: 18px;
+    margin-left: -685px;
+    color: gray;
+}
+.w18{
+    font-size: 18px;
+    margin-left: -606px;
+    color: gray;
+}
+.w19{
+    font-size: 18px;
+    margin-left: -623px;
+    color: gray;
+}
+.event{
+    text-align: center;
+    margin-top: 80px;  
+    color: gray;
+}
+.event img{
+    width: 50%;
+    border: 3px solid gray;
+}
+.e{
+    margin-top: 25px;
+    font-size: 30px;
+    color: gray;
+}
+.e1{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: -690px;
+    color: gray;
+}
+.e2{
+    font-size: 18px;
+    margin-left: -690px;
+    color: gray;
+}
+.e3{
+    font-size: 18px;
+    margin-left: -530px;
+    color: gray;
+}
+.e4{
+    font-size: 18px;
+    margin-left: -598px;
+    color: gray;
+}
+.e5{
+    margin-top: 45px;
+    font-size: 30px;
+    margin-left: -370px;
+    color: gray;
+}
+.e6{
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: -370px;
+    color: gray;
+}
+.e7{
+    font-size: 18px;
+    margin-left: -438px;
+    color: gray;
+}
+.e8{
+    font-size: 18px;
+    margin-left: -686px;
+    color: gray;
+}
+.e9{
+    font-size: 18px;
+    margin-left: -625px;
+    color: gray;
+}
