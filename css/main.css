@@ -59,14 +59,6 @@ html,body{
     transition: all 100ms;
 }
 
-.newslide1{
-    width: 100%;
-    min-width: 300px;
-    -webkit-box-shadow: 1px 2px 9px 1px rgba(117,117,117,0.58);
-    -moz-box-shadow: 1px 2px 9px 1px rgba(117,117,117,0.58);
-    box-shadow: 1px 2px 9px 1px rgba(117,117,117,0.58);
-}
-
 .banner-head-top {
     margin-top: -100px;
     background: no-repeat center center fixed;
@@ -74,15 +66,118 @@ html,body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100%;
     height: 100%;
-    opacity: 0.9;
-    position: relative;
     color: #FFFFFF;
 }
 
 .container{
     width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 0px;
 }
+
+.headinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+.bodyinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+.body1{
+    margin: auto;
+    width: 80%;
+    min-width: 300px;
+    margin-bottom: 100px;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.h3header{
+    font-size: 30px;
+}
+
+.h3body{
+    font-size: 15px;
+    color:#686868;
+}
+
+.h3footer{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.h3footer2{
+    font-size: 18px;
+}
+
+.bodybutton{
+    text-align: center;
+}
+
+.facebookbutton{
+    text-align: center;
+    color: white;
+    background-color: #3746BA;
+    padding: 7px;
+    border-radius: 20px;
+    border: 0px;
+    transition: all 200ms;
+}
+
+.facebookbutton:hover{
+    padding: 7px 20px;
+}
+
+.facebookbutton i{
+    margin-right: 5px;
+}
+
+.facebookbutton a{
+    color: white;
+    text-decoration: none;
+}
+
+.linebutton{
+    text-align: center;
+    color: white;
+    background-color: #10A724;
+    padding: 7px 10px;
+    border-radius: 20px;
+    border: 0px;
+    transition: all 200ms;
+}
+
+.linebutton img{
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+.linebutton a{
+    color: white;
+    text-decoration: none;
+}
+
+.linebutton:hover{
+    padding: 7px 20px;
+}
+
+.foot{
+    text-align: center;
+    font-size: 13px;
+    border-top: 2px solid rgb(0,0,0,0.2);
+    background: #eeeeee;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    transition: all 500ms linear;
+  }
