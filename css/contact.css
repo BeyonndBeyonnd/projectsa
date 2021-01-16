@@ -127,9 +127,12 @@ html,body{
 }
 
 
+.linear{
+    margin: auto;
+    text-align: center;
+}
+
 .linear img{
-    margin-left: 480px;
-    margin-top: 70px;
     width: 375px;
     height: 50px;
 }
