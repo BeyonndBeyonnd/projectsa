@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="css/login.css?v=<?=time();?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
 </head>
 <body>
     <div class="main-container" >
@@ -31,7 +34,7 @@
             </form>
             <div class="buttons">
                 <div class="container">
-                    <a href="#" class="btn effect01" target="_blank"><span>สมัครสมาชิก</span></a>
+                    <a href="register.php" class="btn effect01"><span>สมัครสมาชิก</span></a>
                 </div>
             </div>
             <a href="index.php">กลับสู่หน้าหลัก</a>
@@ -41,4 +44,55 @@
         </div>
     </div>
 </body>
+<script type="text/javascript">
+$(document).ready(function()
+{
+    $("#login2").click(function(e)
+    {
+        e.preventDefault();
+        $.ajax(
+        {
+            type: "POST",
+            url:  "checklogin.php",
+            data: $("#login1").serialize(),
+            success:function(result)
+            {
+                if(result.status == 1)
+                {
+                    swal({
+                        title: "สำเร็จ!",
+                        text: "คุณเข้าสู่ระบบสำเร็จ!",
+                        type: "success",
+                        showButtonCancel: true,
+                    }, function(isConfirm) {
+                            if(isConfirm){
+                                window.location = "index.php";
+                            }
+                            if(isCancel){
+                                window.location = "index.php";
+                            }
+                    });
+                }
+                else if(result.status == 0)
+                {
+                    swal({
+                        title: "ผิดพลาด!",
+                        text: "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง!",
+                        type: "error",
+                        showButtonCancel: true,
+                    }, function(isConfirm) {
+                            if(isConfirm){
+                                window.location = "login.php";
+                            }
+                            if(isCancel){
+                                window.location = "login.php";
+                            }
+                    });
+                }
+            }
+        });
+
+    });
+});
+</script>
 </html>
