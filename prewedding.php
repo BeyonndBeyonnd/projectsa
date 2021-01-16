@@ -58,36 +58,36 @@
             <div class="photo1">
                 <div class="Box1">
                     <img src="img/Pre wedding/pre1.jpg"><br><br><br>
-                    <h3>adsadsd</h3>
-                    <h4>aaaaaaaaaa</h4><br>    
+                    <h3>PRE WEDDING</h3>
+                    <h4>pre wedding</h4><br>    
                 </div>
                 <div class="Box2">
                     <img src="img/Pre wedding/pre2.jpg"><br><br><br>
-                    <h3>adsadsd</h3>
-                    <h4>aaaaaaaaaa</h4><br>    
+                    <h3>PRE WEDDING</h3>
+                    <h4>pre wedding</h4><br>    
                 </div>    
                 <div class="Box3">
                     <img src="img/Pre wedding/pre3.jpg"><br><br><br>
-                    <h3>adsadsd</h3>
-                    <h4>aaaaaaaaaa</h4><br>    
+                    <h3>PRE WEDDING</h3>
+                    <h4>pre wedding</h4><br>    
                 </div>          
             </div>
             <br>
             <div class="photo2">
                 <div class="Box1">
                     <img src="img/Pre wedding/pre4.jpg"><br><br><br>
-                    <h3>adsadsd</h3>
-                    <h4>aaaaaaaaaa</h4><br>    
+                    <h3>PRE WEDDING</h3>
+                    <h4>pre wedding</h4><br>    
                 </div>
                 <div class="Box2">
                     <img src="img/Pre wedding/pre5.jpg"><br><br><br>
-                    <h3>adsadsd</h3>
-                    <h4>aaaaaaaaaa</h4><br>    
+                    <h3>PRE WEDDING</h3>
+                    <h4>pre wedding</h4><br>    
                 </div>    
                 <div class="Box3">
                     <img src="img/Pre wedding/pre6.jpg"><br><br><br>
-                    <h3>adsadsd</h3>
-                    <h4>aaaaaaaaaa</h4><br>    
+                    <h3>PRE WEDDING</h3>
+                    <h4>pre wedding</h4><br>    
                 </div>          
             </div>
         </div>
