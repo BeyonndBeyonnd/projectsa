@@ -64,13 +64,16 @@ html,body{
 }
 
 .mainbody h1{
+    color: dimgray;
     text-align: center;
 }
 .mainbody h3{
+    color: gray;
     text-align: center;
     font-size: 18px;
     margin-top: -20px;
 }
+
 .bodybutton{
     text-align: center;
 }
@@ -122,3 +125,12 @@ html,body{
 .linebutton:hover{
     padding: 7px 20px;
 }
+
+
+.linear img{
+    margin-left: 480px;
+    margin-top: 70px;
+    width: 375px;
+    height: 50px;
+}
+

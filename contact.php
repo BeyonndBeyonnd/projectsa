@@ -25,7 +25,7 @@
             <a href="#WEDDING" class="animate__animated animate__heartBeat">WEDDING</a>
             <a href="#PREWEDDING" class="animate__animated animate__heartBeat">PRE WEDDING</a>
             <a href="#GRADUATION" class="animate__animated animate__heartBeat">GRADUATION</a>
-            <a href="#HOME" class="animate__animated animate__heartBeat">HOME</a>
+            <a href="index.php" class="animate__animated animate__heartBeat">HOME</a>
             <div class="navbar-left">
                 <a style="margin-left: 20px;" href="#HOME" class="animate__animated animate__heartBeat">รับจ้างถ่ายรูปภาพ</a>
             </div>
@@ -50,8 +50,11 @@
                 </button>
             </div>
             <br>
-            <br>
-            <h3>Line ID: @bboyphoto ●  092-314-3010</h3>
+            <br>              
+                <h3>Line ID: @bboyphoto ● 099-999-9999</h3>
+                <div class="linear">
+                    <img src="img/2.png">
+                </div>       
         </div>
     </div>
 </div>
