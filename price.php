@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/contact.css?v=<?=time();?>">
+    <link rel="stylesheet" href="css/price.css?v=<?=time();?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
 </head>
@@ -26,34 +26,8 @@
             <a href="#GRADUATION" class="animate__animated animate__heartBeat">GRADUATION</a>
             <a href="index.php" class="animate__animated animate__heartBeat">HOME</a>
             <div class="navbar-left">
-                <a style="margin-left: 20px;" href="#HOME" class="animate__animated animate__heartBeat">รับจ้างถ่ายรูปภาพ</a>
+                <a style="margin-left: 20px;" href="#HOME" class="animate__animated animate__heartBeat">Photographer</a>
             </div>
-        </div>
-        <div class="mainbody">
-            <h1>Contact</h1>
-            <br>
-            <h3>คุณสามารถติดต่อเราได้ตามที่อยู่นี้</h3>
-            <br>
-            <br>
-            <div class="bodybutton">
-                <button class="facebookbutton">
-                    <a href="#">
-                        <i class="fa fa-facebook"></i>
-                        Facebook
-                    </a>        
-                </button>
-                <button class="linebutton">
-                    <a href="#">
-                        <img src="img/Icon-Line.png">Line
-                    </a>   
-                </button>
-            </div>
-            <br>
-            <br>              
-                <h3>Line ID: @bboyphoto ● 099-999-9998</h3>
-                <div class="linear">
-                    <img src="img/2.png">
-                </div>  
         </div>
     </div>
 </div>
