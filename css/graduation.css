@@ -138,30 +138,107 @@ html,body{
     height: 50px;
 }
 .Photo1{
-    width: 500px;
-    background-color: whitesmoke;
     
+    
+    margin-top: -50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Photo2{
+    
+    
+    margin-top: -50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Box1{
+    margin: auto;
+    width: 30%;
+    min-width: 300px;
+
+    background-color: rgb(231, 229, 229);
     -webkit-box-shadow: 2px -1px 8px -4px rgba(138,138,138,1);
     -moz-box-shadow: 2px -1px 8px -4px rgba(138,138,138,1);
     box-shadow: 2px -1px 8px -4px rgba(138,138,138,1);
-    
-}
-.Photo1 img{
-   
-    width: 500px;
-    height: 350px;
-    
-    
-}
-.Photo1 h3{
-    text-align: center;
 
-    font-size: 30px;
+   
+    text-align: center;
+}
+.Box2{
+    margin: auto;
+    width: 30%;
+    min-width: 300px;
+
+    background-color: rgb(231, 229, 229);
+    -webkit-box-shadow: 2px -1px 8px -4px rgba(138,138,138,1);
+    -moz-box-shadow: 2px -1px 8px -4px rgba(138,138,138,1);
+    box-shadow: 2px -1px 8px -4px rgba(138,138,138,1);
+
+    
+    text-align: center;
+}
+.Box3{
+    margin: auto;
+    width: 30%;
+    min-width: 300px;
+
+    background-color: rgb(231, 229, 229);
+    -webkit-box-shadow: 2px -1px 8px -4px rgba(138,138,138,1);
+    -moz-box-shadow: 2px -1px 8px -4px rgba(138,138,138,1);
+    box-shadow: 2px -1px 8px -4px rgba(138,138,138,1);
+
+    
+    text-align: center;
+}
+
+.Box1 img{
+   
+    width: 100%;
+    height: 100%; 
+}
+.Box1 h3{
+    color: black;
+    text-align: center;
+    font-size: 24px; 
+}
+.Box1 h4{
+    text-align: center;
+    font-size: 18px;
     
 }
-.Photo1 h4{
+.Box2 img{
+   
+    width: 100%;
+    height: 100%; 
+}
+.Box2 h3{
+    color: black;
     text-align: center;
+    font-size: 24px; 
+}
+.Box2 h4{
+    text-align: center;
+    font-size: 18px;
     
-    font-size: 20px;
+}
+.Box3 img{
+   
+    width: 100%;
+    height: 100%; 
+}
+.Box3 h3{
+    color: black;
+    text-align: center;
+    font-size: 24px; 
+}
+.Box3 h4{
+    text-align: center;
+    font-size: 18px;
     
 }

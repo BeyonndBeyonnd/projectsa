@@ -57,16 +57,73 @@
             <br>
             <br>
             <br>
+            <br>
+            <br>
+            <br>
             <div class="Photo1">
-                <img src="img/Graduation/grad1.jpg">
-                <br>
-                <br>
-                <br>
-                <h3>รับปริญญา</h3>
-                
-                <h4>รับปริญญา ราชภัฏนครราชสีมา ประจำปี 2562</h4>
+                <div class="Box1">
+                    <img src="img/Graduation/grad1.jpg">
+                    <br>
+                    <br>
+                    <br>
+                    <h3>รับปริญญา</h3>
+                    <h4>รับปริญญา ราชภัฏนครราชสีมา ประจำปี 2562</h4>
+                    <br>
+                </div>
+                <div class="Box2">
+                    <img src="img/Graduation/grad2.jpg">
+                    <br>
+                    <br>
+                    <br>
+                    <h3>รับปริญญา</h3>
+                    <h4>รับปริญญา ราชภัฏนครราชสีมา ประจำปี 2562</h4>
+                    <br>
+                </div>
+                <div class="Box3">
+                    <img src="img/Graduation/grad3.jpg">
+                    <br>
+                    <br>
+                    <br>
+                    <h3>รับปริญญา</h3>
+                    <h4>รับปริญญา ราชภัฏนครราชสีมา ประจำปี 2562</h4>
+                    <br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="Photo2">
+                <div class="Box1">
+                    <img src="img/Graduation/grad4.jpg">
+                    <br>
+                    <br>
+                    <br>
+                    <h3>รับปริญญา</h3>
+                    <h4>รับปริญญา ราชภัฏนครราชสีมา ประจำปี 2562</h4>
+                    <br>
+                </div>
+                <div class="Box2">
+                    <img src="img/Graduation/grad5.jpg">
+                    <br>
+                    <br>
+                    <br>
+                    <h3>รับปริญญา</h3>
+                    <h4>รับปริญญา ราชภัฏนครราชสีมา ประจำปี 2562</h4>
+                    <br>
+                </div>
+                <div class="Box3">
+                    <img src="img/Graduation/grad6.jpg">
+                    <br>
+                    <br>
+                    <br>
+                    <h3>รับปริญญา</h3>
+                    <h4>รับปริญญา ราชภัฏนครราชสีมา ประจำปี 2562</h4>
+                    <br>
+                </div>
             </div>
 
+            
         </div>
     </div>
 </div>
