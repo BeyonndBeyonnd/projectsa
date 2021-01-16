@@ -21,7 +21,7 @@
             <a href="contact.php" class="animate__animated animate__heartBeat">CONTACT</a>
             <a href="price.php" class="animate__animated animate__heartBeat">ราคาถ่ายภาพต่างๆ</a>
             <a href="#EVENT" class="animate__animated animate__heartBeat">EVENT</a>
-            <a href="#WEDDING" class="animate__animated animate__heartBeat">WEDDING</a>
+            <a href="wedding.php" class="animate__animated animate__heartBeat">WEDDING</a>
             <a href="prewedding.php" class="animate__animated animate__heartBeat">PRE WEDDING</a>
             <a href="graduation.php" class="animate__animated animate__heartBeat">GRADUATION</a>
             <a href="index.php" class="animate__animated animate__heartBeat">HOME</a>

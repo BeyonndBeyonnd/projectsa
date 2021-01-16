@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/graduation.css?v=<?=time();?>">
+    <link rel="stylesheet" href="css/wedding.css?v=<?=time();?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
 </head>
@@ -62,30 +62,30 @@
             <br>
             <div class="Photo1">
                 <div class="Box1">
-                    <img src="img/Graduation/grad1.jpg">
+                    <img src="img/Wedding/wed1.jpg">
                     <br>
                     <br>
                     <br>
-                    <h3>รับปริญญา</h3>
-                    <h4>รับปริญญา ราชภัฏนครราชสีมา ประจำปี 2562</h4>
+                    <h3>งานเเต่ง</h3>
+                    <h4>งานเเต่ง คุณ กขค จังหวัด ชัยภูมิ 2562</h4>
                     <br>
                 </div>
                 <div class="Box2">
-                    <img src="img/Graduation/grad2.jpg">
+                    <img src="img/Wedding/wed2.jpg">
                     <br>
                     <br>
                     <br>
-                    <h3>รับปริญญา</h3>
-                    <h4>รับปริญญา ราชภัฏนครราชสีมา ประจำปี 2562</h4>
+                    <h3>งานเเต่ง</h3>
+                    <h4>งานเเต่ง คุณ กขค จังหวัด ชัยภูมิ 2562</h4>
                     <br>
                 </div>
                 <div class="Box3">
-                    <img src="img/Graduation/grad3.jpg">
+                    <img src="img/Wedding/wed3.jpg">
                     <br>
                     <br>
                     <br>
-                    <h3>รับปริญญา</h3>
-                    <h4>รับปริญญา ราชภัฏนครราชสีมา ประจำปี 2562</h4>
+                    <h3>งานเเต่ง</h3>
+                    <h4>งานเเต่ง คุณ กขค จังหวัด ชัยภูมิ 2562</h4>
                     <br>
                 </div>
             </div>
@@ -95,30 +95,30 @@
             <br>
             <div class="Photo2">
                 <div class="Box1">
-                    <img src="img/Graduation/grad4.jpg">
+                    <img src="img/Wedding/wed4.jpg">
                     <br>
                     <br>
                     <br>
-                    <h3>รับปริญญา</h3>
-                    <h4>รับปริญญา ราชภัฏนครราชสีมา ประจำปี 2562</h4>
+                    <h3>งานเเต่ง</h3>
+                    <h4>งานเเต่ง คุณ กขค จังหวัด ชัยภูมิ 2562</h4>
                     <br>
                 </div>
                 <div class="Box2">
-                    <img src="img/Graduation/grad5.jpg">
+                    <img src="img/Wedding/wed5.jpg">
                     <br>
                     <br>
                     <br>
-                    <h3>รับปริญญา</h3>
-                    <h4>รับปริญญา ราชภัฏนครราชสีมา ประจำปี 2562</h4>
+                    <h3>งานเเต่ง</h3>
+                    <h4>งานเเต่ง คุณ กขค จังหวัด ชัยภูมิ 2562</h4>
                     <br>
                 </div>
                 <div class="Box3">
-                    <img src="img/Graduation/grad6.jpg">
+                    <img src="img/Wedding/wed6.jpg">
                     <br>
                     <br>
                     <br>
-                    <h3>รับปริญญา</h3>
-                    <h4>รับปริญญา ราชภัฏนครราชสีมา ประจำปี 2562</h4>
+                    <h3>งานเเต่ง</h3>
+                    <h4>งานเเต่ง คุณ กขค จังหวัด ชัยภูมิ 2562</h4>
                     <br>
                 </div>
             </div>
