@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/contact.css?v=<?=time();?>">
+    <link rel="stylesheet" href="css/prewedding.css?v=<?=time();?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
 </head>
@@ -30,9 +30,9 @@
             </div>
         </div>
         <div class="mainbody">
-            <h1>Contact</h1>
+            <h1>ผลงานถ่ายภาพ พรีเวดดิ้ง</h1>
             <br>
-            <h3>คุณสามารถติดต่อเราได้ตามที่อยู่นี้</h3>
+            <h3>รวมผลงาน ภาพถ่ายพรีเวดดิ้ง</h3>
             <br>
             <br>
             <div class="bodybutton">
@@ -54,6 +54,42 @@
                 <div class="linear">
                     <img src="img/2.png">
                 </div>  
+            <br><br>
+            <div class="photo1">
+                <div class="Box1">
+                    <img src="img/Pre wedding/pre1.jpg"><br><br><br>
+                    <h3>adsadsd</h3>
+                    <h4>aaaaaaaaaa</h4><br>    
+                </div>
+                <div class="Box2">
+                    <img src="img/Pre wedding/pre2.jpg"><br><br><br>
+                    <h3>adsadsd</h3>
+                    <h4>aaaaaaaaaa</h4><br>    
+                </div>    
+                <div class="Box3">
+                    <img src="img/Pre wedding/pre3.jpg"><br><br><br>
+                    <h3>adsadsd</h3>
+                    <h4>aaaaaaaaaa</h4><br>    
+                </div>          
+            </div>
+            <br>
+            <div class="photo2">
+                <div class="Box1">
+                    <img src="img/Pre wedding/pre4.jpg"><br><br><br>
+                    <h3>adsadsd</h3>
+                    <h4>aaaaaaaaaa</h4><br>    
+                </div>
+                <div class="Box2">
+                    <img src="img/Pre wedding/pre5.jpg"><br><br><br>
+                    <h3>adsadsd</h3>
+                    <h4>aaaaaaaaaa</h4><br>    
+                </div>    
+                <div class="Box3">
+                    <img src="img/Pre wedding/pre6.jpg"><br><br><br>
+                    <h3>adsadsd</h3>
+                    <h4>aaaaaaaaaa</h4><br>    
+                </div>          
+            </div>
         </div>
     </div>
 </div>
