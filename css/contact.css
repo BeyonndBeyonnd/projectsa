@@ -129,6 +129,7 @@ html,body{
 
 .linear{
     margin: auto;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -136,4 +137,3 @@ html,body{
     width: 375px;
     height: 50px;
 }
-

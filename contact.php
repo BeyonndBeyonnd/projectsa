@@ -54,7 +54,7 @@
                 <h3>Line ID: @bboyphoto ● 099-999-9998</h3>
                 <div class="linear">
                     <img src="img/2.png">
-                </div>       
+                </div>  
         </div>
     </div>
 </div>
