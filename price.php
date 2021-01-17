@@ -81,22 +81,22 @@
             <div class="congrad">
                 <img src="img/Graduation/grad2.jpg">
                 <h3>
-                    รับปริญญา Graduation
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i> รับปริญญา Graduation
                 </h3>
                 <h4>
                     รับปริญญา วันซ้อม/รับจริง (วันที่ต้องมีการเข้าหอประชุม)
                 </h4>
                 <h5 class="h51">
-                    เต็มวัน 4,000 บาท (เช้าก่อนเข้าหอประชุม จนถึงเย็นหลังออกจากหอประชุม)
+                    <i class="fa fa-hourglass-half" aria-hidden="true"></i> เต็มวัน 4,000 บาท (เช้าก่อนเข้าหอประชุม จนถึงเย็นหลังออกจากหอประชุม)
                 </h5>
                 <h5 class="h52">
-                    ครึ่งวัน 3,000 บาท (เช้าหรือเย็น ก่อนเข้า-ออกจากห้องประชุม ประมาณ 4 ชั่วโมง)
+                    <i class="fa fa-hourglass-half" aria-hidden="true"></i> ครึ่งวัน 3,000 บาท (เช้าหรือเย็น ก่อนเข้า-ออกจากห้องประชุม ประมาณ 4 ชั่วโมง)
                 </h5>
                 <h5 class="h53">
                     (***สำหรับวัน Photo day ที่ไม่มีการเข้าหอประชุม นับเต็มวัน 8 ชั่วโมงครับ ส่วนครึ่งวันประมาณ 4 ชั่วโมง)
                 </h5>
                 <h6 class ="h61">
-                    สิ่งที่ได้รับหลังจากเสร็จงาน
+                    <i class="fa fa-gift" aria-hidden="true"></i> สิ่งที่ได้รับหลังจากเสร็จงาน
                 </h6>
                 <h6 class ="h62">
                     1.อัดภาพขนาด 4x6 จำนวน 40 รูป
@@ -117,16 +117,16 @@
                     นอกรอบ หรือวันที่ไม่มีการรับปริญญา (ราคาเดียว)
                 </h6>
                 <h6 class ="h72">
-                    ครึ่งวัน 3,500 บาท (4 ชั่วโมง)
+                    <i class="fa fa-hourglass-half" aria-hidden="true"></i> ครึ่งวัน 3,500 บาท (4 ชั่วโมง)
                 </h6>
                 <h6 class ="h73">
-                    เต็มวัน 4,500 บาท (8 ชั่วโมง)
+                    <i class="fa fa-hourglass-half" aria-hidden="true"></i> เต็มวัน 4,500 บาท (8 ชั่วโมง)
                 </h6>
                 <h6 class ="h81">
                     นอกรอบ แบบมาเป็นกลุ่ม
                 </h6>
                 <h6 class ="h82">
-                    คิดคนแรก 4,000 บาท คนต่อไปเพิ่มหัวละ 800 บาท
+                    <i class="fa fa-hand-o-right" aria-hidden="true"></i> คิดคนแรก 4,000 บาท คนต่อไปเพิ่มหัวละ 800 บาท
                 </h6>
                 <h6 class ="h83">
                     อัดภาพขนาด 4x6 คนละ 20 รูป
@@ -144,25 +144,25 @@
                     แต่งภาพแสงสีปกติใสๆ ให้ทุกใบ และทำการรีทัชพิเศษ เช่น ลบสิ้ว ริ้วรอย
                 </h6>
                 <h6 class ="h93">
-                    ระยะเวลาส่งงาน 2-4 สัปดาห์ หลังถ่ายภาพ
+                    <i class="fa fa-spinner" aria-hidden="true"></i> ระยะเวลาส่งงาน 2-4 สัปดาห์ หลังถ่ายภาพ
                 </h6>
                 <h6 class ="h94">
                     มัดจำ 1,000 บาท เพื่อจองวันครับผม
                 </h6>
                 <h6 class ="h95">
-                    !! ยังไม่รวมค่าเดินทางและที่พัก(กรณีต้องค้างคืน)
+                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i> ยังไม่รวมค่าเดินทางและที่พัก(กรณีต้องค้างคืน)
                 </h6>
             </div> 
             <div class="prewedding">
                 <img src="img/Pre wedding/pre6.jpg">
                 <h6 class="p">
-                    พรีเวดดิ้ง Pre Wedding
+                    <i class="fa fa-camera" aria-hidden="true"></i> พรีเวดดิ้ง Pre Wedding
                 </h6>
                 <h6 class="p1">
-                    Package 5,500 (4 ชั่วโมง)
+                    <i class="fa fa-hourglass-half" aria-hidden="true"></i> Package 5,500 (4 ชั่วโมง)
                 </h6>
                 <h6 class="p2">
-                    Package 6,500 (8 ชั่วโมง)
+                    <i class="fa fa-hourglass-half" aria-hidden="true"></i> Package 6,500 (8 ชั่วโมง)
                 </h6>
                 <h6 class="p3">
                     บ่าว-สาว เตรียมชุดมาเอง ไม่จำกัดจำนวนชุด
@@ -180,43 +180,43 @@
             <div class="wedding">
                 <img src="img/Wedding/wed4.jpg">
                 <h6 class="w">
-                    พิธีแต่งงาน Wedding Ceremony
+                    <i class="fa fa-heartbeat" aria-hidden="true"></i> พิธีแต่งงาน Wedding Ceremony
                 </h6>
                 <h6 class="w1">
                     งานพิธีเช้า
                 </h6>
                 <h6 class="w2">
-                    ภาพนิ่ง 1 คน 5,000 บาท
+                    <i class="fa fa-hand-o-right" aria-hidden="true"></i> ภาพนิ่ง 1 คน 5,000 บาท
                 </h6>
                 <h6 class="w3">
-                    ภาพนิ่ง 2 คน 10,000 บาท
+                    <i class="fa fa-hand-o-right" aria-hidden="true"></i> ภาพนิ่ง 2 คน 10,000 บาท
                 </h6>
                 <h6 class="w4">
                     งานพิธีเย็น
                 </h6>
                 <h6 class="w5">
-                    ภาพนิ่ง 1 คน และผู้ช่วย 1 คน 6,000 บาท
+                    <i class="fa fa-hand-o-right" aria-hidden="true"></i> ภาพนิ่ง 1 คน และผู้ช่วย 1 คน 6,000 บาท
                 </h6>
                 <h6 class="w6">
-                    ภาพนิ่ง 2 คน และผู้ช่วย 1 คน 11,000 บาท
+                    <i class="fa fa-hand-o-right" aria-hidden="true"></i> ภาพนิ่ง 2 คน และผู้ช่วย 1 คน 11,000 บาท
                 </h6>
                 <h6 class="w7">
                     งานพิธีเช้า + เลี้ยงกลางวัน
                 </h6>
                 <h6 class="w8">
-                    ภาพนิ่ง 1 คน และผู้ช่วย 1 คน 8,000 บาท
+                    <i class="fa fa-hand-o-right" aria-hidden="true"></i> ภาพนิ่ง 1 คน และผู้ช่วย 1 คน 8,000 บาท
                 </h6>
                 <h6 class="w9">
-                    ภาพนิ่ง 2 คน และผู้ช่วย 1 คน 12,000 บาท
+                    <i class="fa fa-hand-o-right" aria-hidden="true"></i> ภาพนิ่ง 2 คน และผู้ช่วย 1 คน 12,000 บาท
                 </h6>
                 <h6 class="w10">
                     งานพิธีเช้า + งานพิธีเย็น
                 </h6>
                 <h6 class="w11">
-                    ภาพนิ่ง 1 คน และผู้ช่วย 1 คน 11,000 บาท
+                    <i class="fa fa-hand-o-right" aria-hidden="true"></i> ภาพนิ่ง 1 คน และผู้ช่วย 1 คน 11,000 บาท
                 </h6>
                 <h6 class="w12">
-                    ภาพนิ่ง 2 คน และผู้ช่วย 1 คน 16,500 บาท
+                    <i class="fa fa-hand-o-right" aria-hidden="true"></i> ภาพนิ่ง 2 คน และผู้ช่วย 1 คน 16,500 บาท
                 </h6>
                 <h6 class="w13">
                     ราคาทั้งหมดมาพร้อมชุดไฟสตูดิโอหน้า Backdrop 2 ดวง ไฟส่องสว่างหน้างาน และไฟนำเข้างานเลี้ยงฉลอง
@@ -228,7 +228,7 @@
                     แต่งภาพแสงสีปกติใสๆ ให้ทุกใบ
                 </h6>
                 <h6 class="w16">
-                    ระยะเวลาส่งงาน 2-4 สัปดาห์ หลังถ่ายภาพ ส่งงานเป็น DVD ทาง EMS
+                    <i class="fa fa-spinner" aria-hidden="true"></i> ระยะเวลาส่งงาน 2-4 สัปดาห์ หลังถ่ายภาพ ส่งงานเป็น DVD ทาง EMS
                 </h6>
                 <h6 class="w17">
                     มัดจำเพื่อจองวันครับผม
@@ -243,22 +243,31 @@
             <div class="event">
                 <img src="img/Event+/2.jpg">
                 <h6 class="e">
-                    งาน Event
+                    <i class="fa fa-birthday-cake" aria-hidden="true"></i> งาน Event
                 </h6>
                 <h6 class="e1">
-                    ครึ่งวัน 3,000 ( 4 ชม.)
+                    <i class="fa fa-hourglass-half" aria-hidden="true"></i> ครึ่งวัน 3,000 ( 4 ชม.)
                 </h6>
                 <h6 class="e2">
-                    เต็มวัน 4,000 ( 8 ชม.)
+                    <i class="fa fa-hourglass-half" aria-hidden="true"></i> เต็มวัน 4,000 ( 8 ชม.)
                 </h6>
                 <h6 class="e3">
-                    ได้รับไฟล์ภาพที่ปรับแสงสีทุกใบที่ถ่ายในวันนั้น
+                    - ได้รับไฟล์ภาพที่ปรับแสงสีทุกใบที่ถ่ายในวันนั้น
                 </h6>
                 <h6 class="e4">
-                    ลงแผ่น DVD พร้อมสกีนปกสวยงาม
+                    - ลงแผ่น DVD พร้อมสกีนปกสวยงาม
+                </h6>
+                <h6 class="e10">
+                    <i class="fa fa-bullhorn" aria-hidden="true"></i> ราคาสำหรับงานต่างจังหวัด
+                </h6>
+                <h6 class="e11">
+                    - ราคาเเต่ละงาน ขึ้นอยู่กับข้อตกลงระหว่างลูกกับช่างภาพ
+                </h6>
+                <h6 class="e12">
+                    - ราคายังไม่รวมค่าเดินทางเเละที่พัก ในกรณีที่มีการค้างคืน
                 </h6>
                 <h6 class="e5">
-                    !! รายละเอียดการติดต่อ และชำระเงินจอง
+                    <i class="fa fa-info" aria-hidden="true"></i> รายละเอียดการติดต่อ และชำระเงินจอง
                 </h6>
                 <h6 class="e6">
                     โทรตรวจสอบและคุยรายละเอียดงานก่อนได้ที่ 092-314-3010 (บอย)
