@@ -249,3 +249,31 @@ html,body{
     border-radius: 20px;
     border: 0px;
 }
+
+.actionuser{
+    background-image: linear-gradient(#bbbbbb, #acacac);
+    position: fixed;
+    margin-left: 1680px;
+    visibility: hidden;
+    opacity: 0;
+    top: 50px;
+    width: 150px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 300ms linear;
+    border: 2px solid #acacac;
+}
+
+a.login2 span::selection{
+    background-color: none;
+}
+
+.actionuser.active{
+    top: 65px;
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+a.ass{
+    color: white;
+}

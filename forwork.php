@@ -3,6 +3,10 @@
     include('connect.php');
 
     error_reporting(0);
+    if($_SESSION['accountID'] == ""){
+        echo "<script>alert('Please Login!');</script>";
+        echo "<script>window.location='login.php';</script>";
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,7 +41,18 @@
             }
             else{
             ?>
-                <a onclick="clickme()" class="animate__animated animate__heartBeat"><button class="logoutb"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <?=$_SESSION["accountName"];?></button></a>
+                <a class="login2" style="cursor:pointer;" onclick="actionuser()"><i class="fa fa-user"></i><span> ยินดีต้อนรับ <?=$_SESSION["accountName"];?></span></a>
+                <div class="actionuser">
+                    <a href="forwork.php" class="ass">จ้างงาน</a>
+                    <?php
+                    if($_SESSION['accountAdmin'] >= 1){
+                    ?>
+                        <a href="admin.php" class="ass">จัดการงาน</a>
+                    <?php
+                    }
+                    ?>
+                    <a onclick="clickme()" class="ass" style="cursor:pointer;">ออกจากระบบ</a>
+                </div>
             <?php
                 }
             ?>
@@ -53,15 +68,13 @@
             </div>
         </div>
         <div class="mainbody">
-            <form action="/action_page.php">
+            <form action="checkwork.php" method="POST" id="checkwork1">
                 <div class="photo1">
                     <div class="Box1"> 
                         <h1>แบบฟอร์มการจ้างงาน</h1>
                         <div class="Box1_1">
                             <label for="name" class="label2">Name</label><br>
                             <input type="text" id="name" name="name" placeholder="ชื่อ-นามสกุล"><br><br>
-                            <label for="email" class="label2">Email</label><br>
-                            <input type="text" id="email" name="email" placeholder="Email"><br><br>
                             <label for="phone" class="label2">Phone</label><br>
                             <input type="text" id="phone" name="phone" placeholder="Phone number"><br><br>
                             <label for="work">Choose a work</label><br>
@@ -81,12 +94,10 @@
                             </select><br><br>
                             <label for="w3review">รายละเอียดเพิ่มเติม</label><br>
                             <label for="w3review">(กรอกสถานที่ และอื่นๆที่ต้องการบอกช่างภาพ)</label><br>
-
-                            <textarea id="" name="w3review"  rows="4" cols="50">
-                            </textarea>
+                            <textarea name="story" id="" rows="4" cols="50" ></textarea>
                         </div>
                         <div class="submit">
-                            <br><button id="submitbotton"type="submit">Submit</button>
+                            <br><button id="checkwork2" type="submit">Submit</button>
                         </div>
                     </div>
                 </div> 
@@ -100,7 +111,98 @@
     </div>
 </footer>
 </body>
+<script type="text/javascript">
+$(document).ready(function()
+{
+    $("#checkwork2").click(function(e)
+    {
+        e.preventDefault();
+        $.ajax(
+        {
+            type: "POST",
+            url:  "checkwork.php",
+            data: $("#checkwork1").serialize(),
+            success:function(result)
+            {
+                if(result.status == 0)
+                {
+                    swal({
+                        title: "ผิดพลาด!",
+                        text: "คุณได้ทำการส่งแบบฟอร์มไปแล้วกรุณารอทางผู้ดูแลยืนยันและติดต่อกลับ!",
+                        type: "error",
+                        showButtonCancel: true,
+                    }, function(isConfirm) {
+                            if(isConfirm){
+                                window.location = "index.php";
+                            }
+                            if(isCancel){
+                                window.location = "index.php";
+                            }
+                    });
+                }
+                else if(result.status == 1)
+                {
+                    swal({
+                        title: "สำเร็จ!",
+                        text: "ระบบได้ทำการส่งแบบฟอร์มการจ้างงานไปยังผู้ดูแลแล้ว!",
+                        type: "success",
+                        showButtonCancel: true,
+                    }, function(isConfirm) {
+                            if(isConfirm){
+                                window.location = "index.php";
+                            }
+                            if(isCancel){
+                                window.location = "index.php";
+                            }
+                    });
+                }
+                else if(result.status == 2)
+                {
+                    swal({
+                        title: "ผิดพลาด!",
+                        text: "คุณจำเป็นต้องกรอกชื่อของคุณ!",
+                        type: "error",
+                        showButtonCancel: true,
+                    }, function(isConfirm) {
+                            if(isConfirm){
+                                window.location = "forwork.php";
+                            }
+                            if(isCancel){
+                                window.location = "forwork.php";
+                            }
+                    });
+                }
+                else if(result.status == 3)
+                {
+                    swal({
+                        title: "ผิดพลาด!",
+                        text: "คุณจำเป็นต้องกรอกเบอร์โทรศัพท์!",
+                        type: "error",
+                        showButtonCancel: true,
+                    }, function(isConfirm) {
+                            if(isConfirm){
+                                window.location = "forwork.php";
+                            }
+                            if(isCancel){
+                                window.location = "forwork.php";
+                            }
+                    });
+                }
+            }
+        });
+
+    });
+});
+</script>
 <script>
+function actionuser()
+{
+    document.getElementsByClassName("actionuser")[0].classList.toggle("active");
+}
+function myphone()
+{
+    document.getElementsByClassName("menuphone2")[0].classList.toggle("active");
+}
 function clickme(){
       swal({
           title: "ออกจากระบบ",

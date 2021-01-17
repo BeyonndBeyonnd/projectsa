@@ -27,6 +27,7 @@
             <form action="checkregister.php" method="POST" id="register1">
                 <input class="inputtext" type="text" placeholder="ชื่อผู้ใช้" name="txtuser" autocomplete="off" required>
                 <br><br>
+                <label style="color:red;">* ต้องเป็น gmail.com ที่ใช้ได้จริงเท่านั้น *</label><br>
                 <input class="inputtext" type="text" placeholder="Email" name="txtemail" autocomplete="off" required>
                 <br><br>
                 <input class="inputtext" type="password" placeholder="รหัสผ่าน" name="ppass" autocomplete="off" required>

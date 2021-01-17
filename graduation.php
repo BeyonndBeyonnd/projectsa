@@ -36,7 +36,18 @@
             }
             else{
             ?>
-                <a onclick="clickme()" class="animate__animated animate__heartBeat"><button class="logoutb"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <?=$_SESSION["accountName"];?></button></a>
+                <a class="login2" style="cursor:pointer;" onclick="actionuser()"><i class="fa fa-user"></i><span> ยินดีต้อนรับ <?=$_SESSION["accountName"];?></span></a>
+                <div class="actionuser">
+                    <a href="forwork.php" class="ass">จ้างงาน</a>
+                    <?php
+                    if($_SESSION['accountAdmin'] >= 1){
+                    ?>
+                        <a href="admin.php" class="ass">จัดการงาน</a>
+                    <?php
+                    }
+                    ?>
+                    <a onclick="clickme()" class="ass" style="cursor:pointer;">ออกจากระบบ</a>
+                </div>
             <?php
                 }
             ?>
@@ -156,6 +167,14 @@
 </footer>
 </body>
 <script>
+function actionuser()
+{
+    document.getElementsByClassName("actionuser")[0].classList.toggle("active");
+}
+function myphone()
+{
+    document.getElementsByClassName("menuphone2")[0].classList.toggle("active");
+}
 function clickme(){
       swal({
           title: "ออกจากระบบ",
