@@ -7,6 +7,15 @@
         echo "<script>alert('Please Login!');</script>";
         echo "<script>window.location='login.php';</script>";
     }
+
+    if($_SESSION['accountAdmin'] < 1)
+    {
+        echo "<script>alert('คุณไม่ใช่ผู้ดูแล!');</script>";
+        echo "<script>window.location='index.php';</script>";
+    }
+
+    $query = "SELECT * FROM work";
+	$result = mysqli_query($conn, $query);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -74,13 +83,34 @@
                 <table border="1">
                     <tr>
                         <th width="50">No.</th>
+                        <th width="150">ชื่อผู้ใช้</th>
                         <th width="150">ชื่อ-นามเระสกุล</th>
                         <th width="150">Email</th>
                         <th width="150">เบอร์ติดต่อ</th>
                         <th width="150">ประเภทงานจ้าง</th>
                         <th width="150">Time</th>
+                        <th width="150">เพิ่มเติม</th>
                         <th width="150">หมายเหตุ</th>
                     </tr>
+                    <?php
+                    while($row = mysqli_fetch_array($result))
+                    {
+                    ?>
+                    <tr>
+                        <td>#<?php echo $row['ID']; ?></td>
+                        <td><?php echo $row['Username']; ?></td>
+                        <td><?php echo $row['Name']; ?></td>
+                        <td><?php echo $row['Email']; ?></td>
+                        <td><?php echo $row['Telephone']; ?></td>
+                        <td><?php echo $row['TypeWork']; ?></td>
+                        <td><?php echo $row['TimeType']; ?></td>
+                        <td><?php echo $row['Info']; ?></td>
+                        <td><a href="Pass.php?username=<?php echo $row['Username'];?>&ID=<?php echo $row['ID']?>"><button type="button" class="btn btn-success">ยืนยัน</button></a> 
+                        <a href="NotPass.php?username=<?php echo $row['Username'];?>&ID=<?php echo $row['ID']?>"><button type="button" class="btn btn-danger">ยกเลิก</button></a></td>
+                    </tr>
+                    <?php
+                    }
+                    ?>
                     
                 </table>    
         </div>

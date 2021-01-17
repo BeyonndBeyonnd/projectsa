@@ -94,6 +94,10 @@ html,body{
     text-align: center;
     font-size: large;
 }
+.bodytable td{
+    text-align: center;
+    padding: 8px;
+}
 .foot{
     text-align: center;
     font-size: 13px;

@@ -13,7 +13,7 @@
     }
     else {
         $_SESSION['accountName'] = $result['Username'];
-        $_SESSION['accountEmail'] = $result['Username'];
+        $_SESSION['accountEmail'] = $result['Email'];
         $_SESSION['accountAdmin'] = $result['Admin'];
         $_SESSION['accountID'] = $result['ID'];
 
