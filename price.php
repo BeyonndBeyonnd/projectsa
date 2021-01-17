@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    include('connect.php');
+
+    error_reporting(0);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,11 +20,26 @@
     <link rel="stylesheet" href="css/price.css?v=<?=time();?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
 </head>
 <body>
     <div class="main-container" >
         <div id="navbar">
-            <a href="login.php" class="animate__animated animate__heartBeat">เข้าสู่ระบบ</a>
+            <?php if ($_SESSION["accountID"] == "")
+            {
+            ?>
+                <a href="login.php" class="animate__animated animate__heartBeat">เข้าสู่ระบบ</a>
+
+            <?php
+            }
+            else{
+            ?>
+                <a onclick="clickme()" class="animate__animated animate__heartBeat"><button class="logoutb"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <?=$_SESSION["accountName"];?></button></a>
+            <?php
+                }
+            ?>
             <a href="contact.php" class="animate__animated animate__heartBeat">CONTACT</a>
             <a href="price.php" class="animate__animated animate__heartBeat">ราคาถ่ายภาพต่างๆ</a>
             <a href="event.php" class="animate__animated animate__heartBeat">EVENT</a>
@@ -261,4 +282,21 @@
     </div>
 </footer>
 </body>
+<script>
+function clickme(){
+      swal({
+          title: "ออกจากระบบ",
+          text: "คุณออกจากระบบสำเร็จ!",
+          type: "success",
+          showButtonCancel: true,
+      }, function(isConfirm) {
+              if(isConfirm){
+                  window.location = "logout.php";
+              }
+              if(isCancel){
+                  window.location = "logout.php";
+              }
+      });
+  }
+</script>
 </html>
