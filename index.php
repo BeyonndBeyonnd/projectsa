@@ -37,17 +37,17 @@
         }
         else{
         ?>
-            <a class="login2" style="cursor:pointer;" onclick="actionuser()"><i class="fa fa-user"></i><span> ยินดีต้อนรับ <?=$_SESSION["accountName"];?></span></a>
-            <div class="actionuser">
-                <a href="forwork.php" class="ass">จ้างงาน</a>
+            <button onclick="myFunction()" class="dropbtn"><i class="fa fa-user"></i> ยินดีต้อนรับ <?=$_SESSION["accountName"];?></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="forwork.php" class="ass">จ้างงาน</a><br>
                 <?php
                 if($_SESSION['accountAdmin'] >= 1){
                 ?>
-                    <a href="admin.php" class="ass">จัดการงาน</a>
+                    <a href="admin.php" class="ass">จัดการงาน</a><br>
                 <?php
                 }
                 ?>
-                <a onclick="clickme()" class="ass" style="cursor:pointer;">ออกจากระบบ</a>
+                <a onclick="clickme()" class="ass" style="cursor:pointer;">ออกจากระบบ</a><br>
             </div>
         <?php
             }
@@ -167,14 +167,24 @@
 </footer>
 </body>
 <script>
-function actionuser()
-{
-    document.getElementsByClassName("actionuser")[0].classList.toggle("active");
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
 }
-function myphone()
-{
-    document.getElementsByClassName("menuphone2")[0].classList.toggle("active");
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
 }
+
 function clickme(){
       swal({
           title: "ออกจากระบบ",
