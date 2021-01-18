@@ -39,15 +39,15 @@
         ?>
             <button onclick="myFunction()" class="dropbtn"><i class="fa fa-user"></i> ยินดีต้อนรับ <?=$_SESSION["accountName"];?></button>
             <div id="myDropdown" class="dropdown-content">
-                <a href="forwork.php" class="ass">จ้างงาน</a><br>
+                <a href="forwork.php">จ้างงาน</a><br>
                 <?php
                 if($_SESSION['accountAdmin'] >= 1){
                 ?>
-                    <a href="admin.php" class="ass">จัดการงาน</a><br>
+                    <a href="admin.php">จัดการงาน</a><br>
                 <?php
                 }
                 ?>
-                <a onclick="clickme()" class="ass" style="cursor:pointer;">ออกจากระบบ</a><br>
+                <a onclick="clickme()" style="cursor:pointer;">ออกจากระบบ</a><br>
             </div>
         <?php
             }

@@ -48,6 +48,7 @@ html,body{
 #navbar a:hover{
     background-color: rgba(189, 189, 189, 0.8);
     color: rgb(75, 75, 75);
+    border-radius: 30px;
 }
 
 #navbar-left a {
@@ -258,30 +259,32 @@ html,body{
     border: 0px;
 }
 
-.actionuser{
-    background-image: linear-gradient(#bbbbbb, #acacac);
-    position: fixed;
-    margin-left: 1680px;
-    visibility: hidden;
-    opacity: 0;
-    top: 50px;
-    width: 150px;
-    border-radius: 0px 0px 10px 10px;
-    transition: 300ms linear;
-    border: 2px solid #acacac;
-}
-
-a.login2 span::selection{
-    background-color: none;
-}
-
-.actionuser.active{
-    top: 65px;
-    visibility: visible;
-    opacity: 1;
-    display: block;
-}
-
-a.ass{
+.dropbtn {
+    margin-top: -5px;
+    float: right;
+    background-color: #3498DB;
     color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+
+.dropdown-content {
+    right: 0;
+    margin-top: 50px;
+    padding: 10px;
+    display: none;
+    position: fixed;
+    border-radius: 30px;
+    background-color: #414141;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
