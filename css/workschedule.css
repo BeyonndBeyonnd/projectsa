@@ -10,6 +10,25 @@ html,body{
     scroll-behavior: smooth;
 }
 
+.now
+{
+  background:red; 
+  color: greenyellow;
+
+}
+.Td_theme
+{
+    background-color: #ffffff;
+    height:84px; 
+    width:110px;
+}
+
+.table_theme 
+{
+    background-color: #00a01b;
+}
+
+
 
 .bg{
     
@@ -77,7 +96,6 @@ html,body{
     justify-content: center;
     padding: 60px;
     margin: auto;
-    width: 80%;
     min-width: 300px;
     background: rgba(231, 229, 229 ,0.7);
     -webkit-box-shadow: 2px -1px 8px -4px rgba(138,138,138,1);
@@ -86,57 +104,82 @@ html,body{
     border-radius: 20px;
 }
 
-.Box1 h1{
-    padding: 20px;
-    margin-top: -20px;
+#calendar{
+    width: 800px;
+    display:block;
+    float:left;
 }
 
-.Box1_1{
-    width: 100%;
-    text-align: center;
-    
+#calendar ul{
+    display:block;
+    width: 800px;
+    margin:0;
+    padding:0;
+    list-style-type:none;
 }
 
-.Box1_1 input{
-    border: none;
-    padding: 7px 100px;
-    border-radius: 20px;
-    text-align: center;
+#calendar li{
+    display:block;
+    width:100px;
+    margin:1px;
+    padding:5px;
+    float:left;
+    text-align:center;
+    background-color:#ff85ef;
 }
 
+#c_head{
+    width: 800px;
+    display:block;
+    float:left;
+}
+#c_back{
+    width: 100px;
+    display:block;
+    float:left;
+    text-align:center;
+    background-color:#CCFF99;
+}
+#c_month{
+    margin: auto;
+    width:513px;
+    display:block;
+    float:left;
+    text-align:center;
+    background-color:#99CC66;
+}
+#c_next{
+    width:100px;
+    display:block;
+    float:left;
+    text-align:center;
+    background-color:#CCFF99;
+}
 
-.label2{
-    margin-left: -300px;
+.c_h_day{
+    display:block;
+    width:45px;
+    float:left;
+    text-align:center;
+    background-color:#FF66CC;
 }
-.Box1_1 select{
-    border: none;
-    padding: 7px 100px;
-    border-radius: 20px;
+.c_today{
+    display:block;
+    width:45px;
+
+    float:left;
+    text-align:center;
+    background-color:#FFCC00;
 }
-.Box1_1 textarea{
-    border: none;
-    border-radius: 5px;
+.c_day{
+    display:block;
+    width:45px;
+
+    float:left;
+    text-align:center;
+    background-color:#FFE1F0;
 }
 
-.submit button{
-    text-align: center;
-    color: white;
-    background-color: #10A724;
-    padding: 7px 20px;
-    border-radius: 20px;
-    border: 0px;
-    transition: all 200ms;
-}
-
-.submit button:hover{
-    padding: 7px 80px;
-}
-
-textarea{
-    font-size: 15px;
-    resize: none;
-    width: 40%;
-}
 
 .foot{
     text-align: center;

@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/forwork.css?v=<?=time();?>">
+    <link rel="stylesheet" href="css/workschedule.css?v=<?=time();?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
@@ -71,70 +71,151 @@
             <form action="checkwork.php" method="POST" id="checkwork1">
                 <div class="photo1">
                     <div class="Box1"> 
-                        <h1>แบบฟอร์มการจ้างงาน</h1>
-                        <div class="Box1_1">
-                            <label for="name" class="label2">Name</label><br>
-                            <input type="text" id="name" name="name" placeholder="ชื่อ-นามสกุล"><br><br>
-                            <label for="phone" class="label2">Phone</label><br>
-                            <input type="text" id="phone" name="phone" placeholder="Phone number"><br><br>
-                            <label for="work">Choose a work</label><br>
+                    <?php 
+//var_dump($_POST);
 
-                            <select name="work" id="work">
-                            <option value="prewedding">Pre Wedding</option>
-                            <option value="wedding">Wedding</option>
-                            <option value="graduation">Graduation</option>
-                            <option value="event">Event</option>
-                            </select>
-                            <br><br>
-                            <label for="time">Choose a time</label><br>
 
-                            <select name="time" id="time">
-                            <option value="halfday">ครึ่งวัน</option>
-                            <option value="allday">เต็มวัน</option>
-                            </select><br><br>
 
-                            <label for="date">Date</label><br>
-                            
-                            <select name="day" id="day">
-                            <option value=" ">Day</option>
-                            <?PHP for($i=1; $i<=31; $i++) {?>
-                            <option value="<?PHP echo $i?>"><?PHP echo $i?></option>
-                            <?PHP }?>
-                            </select>
+//echo "There was $num days in DEC 2012";
+echo "<br />";
+//echo " " . date("l", mktime(0, 0, 0, 12, 1, 2012));
+$month_set=date("m");
+$day_set=1;
+$year_set=date("Y");
+$now=date("d");
 
-                            <select name="month" id="month">
-                            <option value=" ">Month</option>
-                            <?PHP $month = array("มกราคม ","กุมภาพันธ์ ","มีนาคม ","เมษายน ","พฤษภาคม ","มิถุนายน ","กรกฎาคม ","สิงหาคม ","กันยายน ","ตุลาคม ","พฤศจิกายน ","ธันวาคม ");?>
-                            <?PHP for($i=0; $i<sizeof($month); $i++) {?>
-                            <option value="<?PHP echo $month[$i]?>">
-                            <?PHP echo $month[$i]?></option>
-                            <?PHP }?>
-                            </select>
+if(isset($_POST['console']))
+{
+   if($_POST['console']=="<<"&&$_POST['month']=="1")
+   {
+        $month_set=12;
+        $year_set=--$_POST['year'];
+   }else if($_POST['console']=="<<")
+            {
+                $month_set=--$_POST['month'];
+                $year_set=$_POST['year'];
+            }else if($_POST['console']==">>"&&$_POST['month']=="12")
+                    {
+                      $month_set=1;
+                      $year_set=++$_POST['year'];  
+                    }else if($_POST['console']==">>")
+                        {
+                            $month_set=++$_POST['month'];
+                            $year_set=$_POST['year'];
+                        }
+}else if(isset($_POST['today']))
+    {
+        $month_set=date("m");
+        $day_set=1;
+        $year_set=date("Y"); 
+    }
+$day_count = cal_days_in_month(CAL_GREGORIAN, $month_set, $year_set); //month//year �ӹǹ�����͹���չ���ա���ѹ
+$format=date("l", mktime(0, 0, 0, $month_set, $day_set, $year_set));//hour//minute//second//month//day//year �ѹ������ѹ���ѹ����� �� monday 
+if($format=='Saturday')
+{
+    $day_start=7;
+}else if($format=='Sunday')
+        {
+            $day_start=1;
+        }else if($format=='Monday')
+            {
+                $day_start=2;
+            }else if($format=='Tuesday')
+                {
+                    $day_start=3;
+                }else if($format=='Wednesday')
+                    {
+                        $day_start=4;
+                    }else if($format=='Thursday')
+                        {
+                            $day_start=5;
+                        }else
+                            {
+                               $day_start=6; 
+                            }
+?>
 
-                            <select name="year" id="year">
-                            <option value=" ">Year</option>
-                            <?PHP for($i=0; $i<=50; $i++) {?>
-                            <option value="1"><?PHP echo date("Y")+$i+543?></option>
-                            <?PHP }?>
-                            </select><br><br>
+<form method="POST" action="calendar.php">
+<div style="margin-left: 550px;"><?php echo date("F-Y", mktime(0, 0, 0, $month_set, $day_set, $year_set)); // ����ѹ�Ѩ�غѹ�ѹ��� ?></div>
 
-                            <label for="photo">Photographer</label><br>
+<input type="hidden" name="month" value="<?php echo $month_set; ?>" />
+<input type="hidden" name="year" value="<?php echo $year_set; ?>" />
+<input type="submit" name="today" value="TODAY" /> 
+<input type="submit" name="console" value="<<">
+<input type="submit" name="console" value=">>">
 
-                            <select name="photo" id="photo">
-                            <option value="a">a</option>
-                            <option value="b">b</option>
-                            <option value="c">c</option>
-                            <option value="e">e</option>
-                            </select>
-                            <br><br>
+</form>
 
-                            <label for="w3review">รายละเอียดเพิ่มเติม</label><br>
-                            <label for="w3review">(กรอกสถานที่ และอื่นๆที่ต้องการบอกช่างภาพ)</label><br>
-                            <textarea name="story" id="" rows="4" cols="50" ></textarea>
-                        </div>
-                        <div class="submit">
-                            <br><button id="checkwork2" type="submit">Submit</button>
-                        </div>
+ 
+<table class="table_theme" border="2px"  >
+<?php 
+   echo "<th> Sunday </th>";//��ǵ��ҧ
+   echo "<th> Monday </th>";
+   echo "<th> Tuesday </th>";
+   echo "<th> Wednesday </th>";
+   echo "<th> Thursday </th>";
+   echo "<th> Friday </th>";
+   echo "<th> Saturday </th>";
+   $count=1;
+   $day=1;
+   //$day_count=31;
+   if($day_start>=6&&$day_count>=31)
+   {
+    $row=0;
+   }else if($day_start==1&&$day_count<=28)
+    {
+        $row=2;
+    }else
+        {
+            $row=1;
+        }
+   
+    for($row; $row<=5; $row++)
+    {
+       echo "<tr>";
+       for($col=0; $col<=6; $col++)//������ժ�ͧ�������紪�ͧ
+       {
+        echo '<td class="Td_theme" >';
+        if($day_start<=$count&&$day<=$day_count)
+        {
+            if($month_set==date("m")&&$year_set==date("Y")&&$day==$now)//������ત���� �����Ť�
+            {
+             echo "<div class='now'><h4>*NOW</h4></div>";   
+            } 
+            echo $day++;
+        }
+        $count++;
+        echo "</td>";
+       }
+      /* if()
+       {
+        echo "<td></td>";
+       }else if()
+        {
+          echo "<td></td>";  
+        }else if()
+            {
+              echo "<td></td>";  
+            }else if()
+                {
+                  echo "<td></td>";  
+                }else if()
+                    {
+                      echo "<td></td>";  
+                    }else if()
+                        {
+                          echo "<td></td>";  
+                        }else if()
+                            {
+                              echo "<td></td>";  
+                            }
+                            */
+       
+       echo "</tr>";
+        						
+    }
+?>
+</table>
                     </div>
                 </div> 
             </form>
