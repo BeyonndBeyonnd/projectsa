@@ -109,20 +109,8 @@
             }	
         }
 
-        $daytype = "none";
-
-        if($result['TimeType'] == "allday"){
-            $daytype = "เต็มวัน";
-        }
-        else if($result['TimeType'] == "halfdaymo"){
-            $daytype = "ครึ่งวันเช้า";
-        }
-        else if($result['TimeType'] == "halfdayaf"){
-            $daytype = "ครึ่งวันบ่าย";
-        }
-
         $sql2 = "INSERT INTO calendar (Day,Month,Year,PhotoName,DayType)
-        VALUES ('".trim($result['Day'])."','".trim($result['Month'])."','".trim($result['Year'])."','".trim($result['PhotoName'])."','".trim($daytype)."')";
+        VALUES ('".trim($result['Day'])."','".trim($result['Month'])."','".trim($result['Year'])."','".trim($result['PhotoName'])."','".trim($result['TimeType'])."')";
         $query2 = mysqli_query($conn,$sql2);
 
         $query = "DELETE FROM work WHERE Username = '".trim($_GET['username'])."' ";

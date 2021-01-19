@@ -226,6 +226,22 @@ $(document).ready(function()
                             }
                     });
                 }
+                else if(result.status == 4)
+                {
+                    swal({
+                        title: "ผิดพลาด!",
+                        text: "ช่วงเวลาที่คุณเลือกไม่ว่างกรุณาเลือกวันนัดใหม่!",
+                        type: "error",
+                        showButtonCancel: true,
+                    }, function(isConfirm) {
+                            if(isConfirm){
+                                window.location = "forwork.php";
+                            }
+                            if(isCancel){
+                                window.location = "forwork.php";
+                            }
+                    });
+                }
             }
         });
 
