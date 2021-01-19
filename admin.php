@@ -90,6 +90,7 @@
                         <th width="150">ประเภทงานจ้าง</th>
                         <th width="150">Time</th>
                         <th width="150">เพิ่มเติม</th>
+                        <th width="150">ช่างภาพ</th>
                         <th width="150">หมายเหตุ</th>
                     </tr>
                     <?php
