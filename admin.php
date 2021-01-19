@@ -84,7 +84,7 @@
                     <tr>
                         <th width="50">No.</th>
                         <th width="150">ชื่อผู้ใช้</th>
-                        <th width="150">ชื่อ-นามเระสกุล</th>
+                        <th width="150">ชื่อ-นามสกุล</th>
                         <th width="150">Email</th>
                         <th width="150">เบอร์ติดต่อ</th>
                         <th width="150">ประเภทงานจ้าง</th>
