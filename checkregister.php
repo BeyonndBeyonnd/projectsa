@@ -29,14 +29,16 @@
 
     if($result){
         echo json_encode(array('status'=> 0,'message'=> 'Fail'));
+        exit();
     }
 
-    $sql = "SELECT * FROM accounts WHERE Email = '".trim($_POST['txtemail'])."' ";
-    $query = mysqli_query($conn,$sql);
-    $result = mysqli_fetch_array($query,MYSQLI_ASSOC);
+    $sql2 = "SELECT * FROM accounts WHERE Email = '".trim($_POST['txtemail'])."' ";
+    $query = mysqli_query($conn,$sql2);
+    $result2 = mysqli_fetch_array($query,MYSQLI_ASSOC);
 
-    if($result){
+    if($result2){
         echo json_encode(array('status'=> 8,'message'=> 'Fail'));
+        exit();
     }
 
     else{
