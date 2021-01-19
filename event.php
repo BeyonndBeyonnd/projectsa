@@ -91,7 +91,7 @@
             <br><br>
             <div class="photo1">
                 <div class="Box1">
-                    <<div class="click-zoom">
+                    <div class="click-zoom">
                         <label>
                             <input type="checkbox">
                             <img src="img/Event+/4.jpg"><br><br><br>
@@ -101,7 +101,7 @@
                     </div>  
                 </div>
                 <div class="Box2">
-                <<div class="click-zoom">
+                <div class="click-zoom">
                         <label>
                             <input type="checkbox">
                             <img src="img/Event+/5.jpg"><br><br><br>
@@ -111,7 +111,7 @@
                     </div>  
                 </div>    
                 <div class="Box3">
-                <<div class="click-zoom">
+                <div class="click-zoom">
                         <label>
                             <input type="checkbox">
                             <img src="img/Event+/9.jpg"><br><br><br>
@@ -124,7 +124,7 @@
             <br>
             <div class="photo2">
                 <div class="Box1">
-                    <<div class="click-zoom">
+                    <div class="click-zoom">
                         <label>
                             <input type="checkbox">
                             <img src="img/Event+/10.jpg"><br><br><br>
@@ -134,7 +134,7 @@
                     </div>  
                 </div>
                 <div class="Box2">
-                <<div class="click-zoom">
+                <div class="click-zoom">
                         <label>
                             <input type="checkbox">
                             <img src="img/Event+/8.jpg"><br><br><br>
@@ -144,7 +144,7 @@
                     </div>     
                 </div>    
                 <div class="Box3">
-                <<div class="click-zoom">
+                <div class="click-zoom">
                         <label>
                             <input type="checkbox">
                             <img src="img/Event+/8.jpg"><br><br><br>
