@@ -91,37 +91,67 @@
             <br><br>
             <div class="photo1">
                 <div class="Box1">
-                    <img src="img/Event+/4.jpg"><br><br><br>
-                    <h3>HAPPY BIRTHDAY</h3>
-                    <h4>hbd</h4><br>    
+                    <<div class="click-zoom">
+                        <label>
+                            <input type="checkbox">
+                            <img src="img/Event+/4.jpg"><br><br><br>
+                            <h3>HAPPY BIRTHDAY</h3>
+                            <h4>hbd</h4><br>    
+                        </label>   
+                    </div>  
                 </div>
                 <div class="Box2">
-                    <img src="img/Event+/5.jpg"><br><br><br>
-                    <h3>HAPPY BIRTHDAY</h3>
-                    <h4>hbd</h4><br>    
+                <<div class="click-zoom">
+                        <label>
+                            <input type="checkbox">
+                            <img src="img/Event+/5.jpg"><br><br><br>
+                            <h3>HAPPY BIRTHDAY</h3>
+                            <h4>hbd</h4><br>    
+                        </label>   
+                    </div>  
                 </div>    
                 <div class="Box3">
-                    <img src="img/Event+/9.jpg"><br><br><br>
-                    <h3>ค่ายกิจกรรม</h3>
-                    <h4>กิจกรรมวาดฝันปันโอกาส</h4><br>    
+                <<div class="click-zoom">
+                        <label>
+                            <input type="checkbox">
+                            <img src="img/Event+/9.jpg"><br><br><br>
+                            <h3>ค่ายกิจกรรม</h3>
+                            <h4>กิจกรรมวาดฝันปันโอกาส</h4><br>     
+                        </label>   
+                    </div>  
                 </div>          
             </div>
             <br>
             <div class="photo2">
                 <div class="Box1">
-                    <img src="img/Event+/10.jpg"><br><br><br>
-                    <h3>ค่ายกิจกรรม</h3>
-                    <h4>กิจกรรมวาดฝันปันโอกาส</h4><br>    
+                    <<div class="click-zoom">
+                        <label>
+                            <input type="checkbox">
+                            <img src="img/Event+/10.jpg"><br><br><br>
+                            <h3>ค่ายกิจกรรม</h3>
+                            <h4>กิจกรรมวาดฝันปันโอกาส</h4><br>   
+                        </label>   
+                    </div>  
                 </div>
                 <div class="Box2">
-                    <img src="img/Event+/8.jpg"><br><br><br>
-                    <h3>ค่ายกิจกรรม</h3>
-                    <h4>กิจกรรมวาดฝันปันโอกาส</h4><br>    
+                <<div class="click-zoom">
+                        <label>
+                            <input type="checkbox">
+                            <img src="img/Event+/8.jpg"><br><br><br>
+                            <h3>ค่ายกิจกรรม</h3>
+                            <h4>กิจกรรมวาดฝันปันโอกาส</h4><br> 
+                        </label>   
+                    </div>     
                 </div>    
                 <div class="Box3">
-                    <img src="img/Event+/7.jpg"><br><br><br>
-                    <h3>ค่ายกิจกรรม</h3>
-                    <h4>กิจกรรมวาดฝันปันโอกาส</h4><br>    
+                <<div class="click-zoom">
+                        <label>
+                            <input type="checkbox">
+                            <img src="img/Event+/8.jpg"><br><br><br>
+                            <h3>ค่ายกิจกรรม</h3>
+                            <h4>กิจกรรมวาดฝันปันโอกาส</h4><br> 
+                        </label>   
+                    </div>     
                 </div>          
             </div>
         </div>
