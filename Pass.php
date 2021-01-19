@@ -109,6 +109,19 @@
             }	
         }
 
+        $daytype = "none";
+
+        if($result['TimeType'] == "allday"){
+            $daytype = "เต็มวัน";
+        }
+        else if($result['TimeType'] == "halfday"){
+            $daytype = "ครึ่งวัน";
+        }
+
+        $sql2 = "INSERT INTO calendar (Day,Month,Year,PhotoName,DayType)
+        VALUES ('".trim($result['Day'])."','".trim($result['Month'])."','".trim($result['Year'])."','".trim($result['PhotoName'])."','".trim($daytype)."')";
+        $query2 = mysqli_query($conn,$sql2);
+
         $query = "DELETE FROM work WHERE Username = '".trim($_GET['username'])."' ";
         $result = mysqli_query($conn, $query);
 

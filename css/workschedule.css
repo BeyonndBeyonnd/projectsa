@@ -23,6 +23,7 @@ html,body{
   overflow: auto;
   overflow-x: hidden;
   width: 100%;
+  margin-top: -40px;
   transition: all 300ms linear;
 }
 
@@ -64,7 +65,7 @@ html,body{
 
 .mainbody{
     padding: 100px;
-    background: url(../img/Event+/10.jpg) no-repeat center center;
+	background: url(../img/Event+/10.jpg) no-repeat center center fixed;
     width: 100%;
     height: 100%;
 }
@@ -78,7 +79,7 @@ html,body{
     justify-content: center;
     padding: 100px;
     margin: auto;
-    min-width: 300px;
+	min-width: 300px;
     background: rgba(231, 229, 229 ,0.7);
     -webkit-box-shadow: 2px -1px 8px -4px rgba(138,138,138,1);
     -moz-box-shadow: 2px -1px 8px -4px rgba(138,138,138,1);
@@ -156,7 +157,7 @@ td.fc-today {
 	}
 .fc-event-inner {
 	font-family: 'Roboto', sans-serif;
-    background: #03a9f3!important;
+    background: #429950!important;
     color: #FFF!important;
     font-size: 12px!important;
     font-weight: 500!important;
@@ -217,6 +218,7 @@ html .fc,
 }
 	
 .fc-header-title h2 {
+	
 	margin-top: 0;
 	white-space: nowrap;
 	font-size: 32px;
@@ -846,6 +848,7 @@ table.fc-header{
 .fc-event {
 	background: #fff !important;
 	color: #000 !important;
+	text-align: center;
 	}
 	
 /* for vertical events */

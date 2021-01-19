@@ -25,11 +25,11 @@
         date_default_timezone_set('Asia/Bangkok');
         $today = date("d/m/Y h:i:s");
 
-        $sql = "INSERT INTO work (Username,Name,Email,Telephone,Info,TypeWork,TimeType,PhotoName,DateTime)
-        VALUES ('".trim($_SESSION['accountName'])."','".trim($_POST['name'])."','".trim($_SESSION['accountEmail'])."','".trim($_POST['phone'])."','".trim($_POST['story'])."','".trim($_POST['work'])."','".trim($_POST['time'])."','".trim($_POST['photo'])."','".trim($today)."')";
+        $sql = "INSERT INTO work (Username,Name,Email,Telephone,Info,TypeWork,TimeType,PhotoName,Day,Month,Year,DateTime)
+        VALUES ('".trim($_SESSION['accountName'])."','".trim($_POST['name'])."','".trim($_SESSION['accountEmail'])."','".trim($_POST['phone'])."','".trim($_POST['story'])."','".trim($_POST['work'])."',
+        '".trim($_POST['time'])."','".trim($_POST['photo'])."','".trim($_POST['day'])."','".trim($_POST['month'])."','".trim($_POST['year'])."','".trim($today)."')";
         $query = mysqli_query($conn,$sql);
-
-
+        
         echo json_encode(array('status'=> 1,'message'=> 'Success'));
 
     }

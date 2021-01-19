@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 17, 2021 at 11:49 PM
+-- Generation Time: Jan 19, 2021 at 03:59 PM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.4.7
 
@@ -47,6 +47,28 @@ INSERT INTO `accounts` (`ID`, `Username`, `Password`, `Email`, `Admin`, `Registe
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `calendar`
+--
+
+CREATE TABLE `calendar` (
+  `ID` int(12) NOT NULL,
+  `Day` int(12) NOT NULL DEFAULT 0,
+  `Month` int(12) NOT NULL DEFAULT 0,
+  `Year` int(12) NOT NULL DEFAULT 0,
+  `PhotoName` varchar(128) NOT NULL,
+  `DayType` varchar(128) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `calendar`
+--
+
+INSERT INTO `calendar` (`ID`, `Day`, `Month`, `Year`, `PhotoName`, `DayType`) VALUES
+(1, 30, 1, 2021, 'e', 'เต็มวัน');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `work`
 --
 
@@ -59,6 +81,10 @@ CREATE TABLE `work` (
   `Info` varchar(129) NOT NULL,
   `TypeWork` varchar(129) NOT NULL,
   `TimeType` varchar(129) NOT NULL,
+  `PhotoName` varchar(129) DEFAULT NULL,
+  `Day` int(12) NOT NULL DEFAULT 0,
+  `Month` smallint(12) NOT NULL DEFAULT 0,
+  `Year` int(12) NOT NULL DEFAULT 0,
   `DateTime` varchar(129) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -70,6 +96,12 @@ CREATE TABLE `work` (
 -- Indexes for table `accounts`
 --
 ALTER TABLE `accounts`
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- Indexes for table `calendar`
+--
+ALTER TABLE `calendar`
   ADD PRIMARY KEY (`ID`);
 
 --
@@ -86,13 +118,19 @@ ALTER TABLE `work`
 -- AUTO_INCREMENT for table `accounts`
 --
 ALTER TABLE `accounts`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `calendar`
+--
+ALTER TABLE `calendar`
+  MODIFY `ID` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `work`
 --
 ALTER TABLE `work`
-  MODIFY `ID` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `ID` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

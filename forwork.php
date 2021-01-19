@@ -106,7 +106,7 @@
                             <option value=" ">Month</option>
                             <?PHP $month = array("มกราคม ","กุมภาพันธ์ ","มีนาคม ","เมษายน ","พฤษภาคม ","มิถุนายน ","กรกฎาคม ","สิงหาคม ","กันยายน ","ตุลาคม ","พฤศจิกายน ","ธันวาคม ");?>
                             <?PHP for($i=0; $i<sizeof($month); $i++) {?>
-                            <option value="<?PHP echo $month[$i]?>">
+                            <option value="<?PHP echo $i+1?>">
                             <?PHP echo $month[$i]?></option>
                             <?PHP }?>
                             </select>
@@ -114,7 +114,7 @@
                             <select name="year" id="year">
                             <option value=" ">Year</option>
                             <?PHP for($i=0; $i<=50; $i++) {?>
-                            <option value="1"><?PHP echo date("Y")+$i+543?></option>
+                            <option value="<?PHP echo date("Y")+$i?>"><?PHP echo date("Y")+$i?></option>
                             <?PHP }?>
                             </select><br><br>
 
