@@ -292,3 +292,17 @@ html,body{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
+
+.click-zoom input[type=checkbox] {
+    display: none
+  }
+  
+  .click-zoom img {
+    transition: transform 0.25s ease;
+    cursor: zoom-in
+  }
+  
+  .click-zoom input[type=checkbox]:checked~img {
+    transform: scale(3);
+    cursor: zoom-out
+  }

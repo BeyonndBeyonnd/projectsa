@@ -96,7 +96,12 @@
             <br>
             <div class="Photo1">
                 <div class="Box1">
-                    <img src="img/Wedding/wed1.jpg">
+                    <div class="click-zoom">
+                        <label>
+                            <input type="checkbox">
+                            <img src="img/Wedding/wed1.jpg">
+                        </label>
+                    </div>
                     <br>
                     <br>
                     <br>
@@ -105,7 +110,12 @@
                     <br>
                 </div>
                 <div class="Box2">
-                    <img src="img/Wedding/wed2.jpg">
+                    <div class="click-zoom">
+                        <label>
+                            <input type="checkbox">
+                            <img src="img/Wedding/wed2.jpg">
+                        </label>
+                    </div>
                     <br>
                     <br>
                     <br>
@@ -114,7 +124,12 @@
                     <br>
                 </div>
                 <div class="Box3">
-                    <img src="img/Wedding/wed3.jpg">
+                    <div class="click-zoom">
+                        <label>
+                            <input type="checkbox">
+                            <img src="img/Wedding/wed3.jpg">
+                        </label>
+                    </div>
                     <br>
                     <br>
                     <br>
@@ -129,7 +144,12 @@
             <br>
             <div class="Photo2">
                 <div class="Box1">
-                    <img src="img/Wedding/wed4.jpg">
+                    <div class="click-zoom">
+                        <label>
+                            <input type="checkbox">
+                            <img src="img/Wedding/wed4.jpg">
+                        </label>
+                    </div>
                     <br>
                     <br>
                     <br>
@@ -138,7 +158,12 @@
                     <br>
                 </div>
                 <div class="Box2">
-                    <img src="img/Wedding/wed5.jpg">
+                    <div class="click-zoom">
+                        <label>
+                            <input type="checkbox">
+                            <img src="img/Wedding/wed5.jpg">
+                        </label>
+                    </div>
                     <br>
                     <br>
                     <br>
@@ -147,7 +172,12 @@
                     <br>
                 </div>
                 <div class="Box3">
-                    <img src="img/Wedding/wed6.jpg">
+                    <div class="click-zoom">
+                        <label>
+                            <input type="checkbox">
+                            <img src="img/Wedding/wed6.jpg">
+                        </label>
+                    </div>
                     <br>
                     <br>
                     <br>
