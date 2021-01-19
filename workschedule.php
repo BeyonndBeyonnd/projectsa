@@ -276,7 +276,7 @@ box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.18);
 </div>
 <footer>
     <div class="foot">
-        <span>Copyright Website Photographer © 2021 Design by หำใหญ่ทีม</span>
+        <span>Copyright Website Photographer © 2021 Design by ท็อปโครตกีม</span>
     </div>
 </footer>
 </body>

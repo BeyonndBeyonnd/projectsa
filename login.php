@@ -40,7 +40,7 @@
             <a href="index.php">กลับสู่หน้าหลัก</a>
             <br>
             <br>
-            <p>Copyright Website Photographer © 2021 Design by หำใหญ่ทีม</p>
+            <p>Copyright Website Photographer © 2021 Design by ท็อปโครตกีม</p>
         </div>
     </div>
 </body>

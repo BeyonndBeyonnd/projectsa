@@ -123,7 +123,7 @@
 </div>
 <footer>
     <div class="foot">
-        <span>Copyright Website Photographer © 2021 Design by หำใหญ่ทีม</span>
+        <span>Copyright Website Photographer © 2021 Design by ท็อปโครตกีม</span>
     </div>
 </footer>
 </body>
