@@ -235,6 +235,7 @@ box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.18);
                 <button onclick="myFunction()" class="dropbtn"><i class="fa fa-user"></i> ยินดีต้อนรับ <?=$_SESSION["accountName"];?></button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="forwork.php">จ้างงาน</a><br>
+					<a href="workschedule.php">ตารางงาน</a><br>
                     <?php
                     if($_SESSION['accountAdmin'] >= 1){
                     ?>

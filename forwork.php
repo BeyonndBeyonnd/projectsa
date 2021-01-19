@@ -44,6 +44,7 @@
                 <button onclick="myFunction()" class="dropbtn"><i class="fa fa-user"></i> ยินดีต้อนรับ <?=$_SESSION["accountName"];?></button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="forwork.php">จ้างงาน</a><br>
+                    <a href="workschedule.php">ตารางงาน</a><br>
                     <?php
                     if($_SESSION['accountAdmin'] >= 1){
                     ?>
@@ -89,7 +90,8 @@
                             <label for="time">Choose a time</label><br>
 
                             <select name="time" id="time">
-                            <option value="halfday">ครึ่งวัน</option>
+                            <option value="halfdaymo">ครึ่งวันเช้า</option>
+                            <option value="halfdayaf">ครึ่งวันบ่าย</option>
                             <option value="allday">เต็มวัน</option>
                             </select><br><br>
 

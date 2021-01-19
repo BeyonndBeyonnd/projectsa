@@ -114,8 +114,11 @@
         if($result['TimeType'] == "allday"){
             $daytype = "เต็มวัน";
         }
-        else if($result['TimeType'] == "halfday"){
-            $daytype = "ครึ่งวัน";
+        else if($result['TimeType'] == "halfdaymo"){
+            $daytype = "ครึ่งวันเช้า";
+        }
+        else if($result['TimeType'] == "halfdayaf"){
+            $daytype = "ครึ่งวันบ่าย";
         }
 
         $sql2 = "INSERT INTO calendar (Day,Month,Year,PhotoName,DayType)

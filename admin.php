@@ -53,6 +53,7 @@
                 <button onclick="myFunction()" class="dropbtn"><i class="fa fa-user"></i> ยินดีต้อนรับ <?=$_SESSION["accountName"];?></button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="forwork.php">จ้างงาน</a><br>
+                    <a href="workschedule.php">ตารางงาน</a><br>
                     <?php
                     if($_SESSION['accountAdmin'] >= 1){
                     ?>
