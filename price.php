@@ -285,7 +285,7 @@
                     โทรตรวจสอบและคุยรายละเอียดงานก่อนได้ที่ 092-314-3010 (บอย)
                 </h6>
                 <h6 class="e7">
-                    facebook:<a href="https://www.facebook.com/amnad.sanrin"> https://www.facebook.com/amnad.sanrin</a>
+                    facebook:<a href="https://www.facebook.com/profile.php?id"> https://www.facebook.com/profile.php?id</a>
                 </h6>
                 <h6 class="e8">
                     Line ID: @bboyphoto
