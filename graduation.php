@@ -71,7 +71,7 @@
             <br>
             <div class="bodybutton">
                 <button class="facebookbutton">
-                    <a href="#">
+                    <a href="https://www.facebook.com/profile.php?id">
                         <i class="fa fa-facebook"></i>
                         Facebook
                     </a>        
@@ -84,7 +84,7 @@
             </div>
             <br>
             <br>              
-                <h3>Line ID: @bboyphoto ● 099-999-9998</h3>
+                <h3>Line ID: @ ######### ● 099-999-9998</h3>
                 <div class="linear">
                     <img src="img/2.png">
                 </div>  
