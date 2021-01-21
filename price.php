@@ -282,7 +282,7 @@
                     <i class="fa fa-info" aria-hidden="true"></i> รายละเอียดการติดต่อ และชำระเงินจอง
                 </h6>
                 <h6 class="e6">
-                    โทรตรวจสอบและคุยรายละเอียดงานก่อนได้ที่ 092-314-3010 (บอย)
+                    โทรตรวจสอบและคุยรายละเอียดงานก่อนได้ที่ 099-999-9999 (Haha)
                 </h6>
                 <h6 class="e7">
                     facebook:<a href="https://www.facebook.com/profile.php?id"> https://www.facebook.com/profile.php?id</a>
