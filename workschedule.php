@@ -70,8 +70,8 @@
 		var calendar =  $('#calendar').fullCalendar({
 			header: {
 				left: 'title',
-				center: 'agendaDay,agendaWeek,month',
-				right: 'prev,next today'
+				center: 'month',
+				right: 'prev,next'
 			},
 			editable: true,
 			firstDay: 1, //  1(Monday) this can be changed to 0(Sunday) for the USA system
@@ -93,18 +93,7 @@
 			allDaySlot: false,
 			selectHelper: true,
 			select: function(start, end, allDay) {
-				var title = prompt('Event Title:');
-				if (title) {
-					calendar.fullCalendar('renderEvent',
-						{
-							title: title,
-							start: start,
-							end: end,
-							allDay: allDay
-						},
-						true // make the event "stick"
-					);
-				}
+				
 				calendar.fullCalendar('unselect');
 			},
 			droppable: true, // this allows things to be dropped onto the calendar !!!
