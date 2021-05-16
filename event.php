@@ -26,43 +26,7 @@
 </head>
 <body>
     <div class="main-container" >
-        <div id="navbar">
-            <?php if ($_SESSION["accountID"] == "")
-            {
-            ?>
-                <a href="login.php" class="animate__animated animate__heartBeat">เข้าสู่ระบบ</a>
-
-            <?php
-            }
-            else{
-            ?>
-                <button onclick="myFunction()" class="dropbtn"><i class="fa fa-user"></i> ยินดีต้อนรับ <?=$_SESSION["accountName"];?></button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="forwork.php">จ้างงาน</a><br>
-                    <a href="workschedule.php">ตารางงาน</a><br>
-                    <?php
-                    if($_SESSION['accountAdmin'] >= 1){
-                    ?>
-                        <a href="admin.php">จัดการงาน</a><br>
-                    <?php
-                    }
-                    ?>
-                    <a onclick="clickme()" style="cursor:pointer;">ออกจากระบบ</a><br>
-                </div>
-            <?php
-                }
-            ?>
-            <a href="contact.php" class="animate__animated animate__heartBeat">CONTACT</a>
-            <a href="price.php" class="animate__animated animate__heartBeat">ราคาถ่ายภาพต่างๆ</a>
-            <a href="event.php" class="animate__animated animate__heartBeat">EVENT</a>
-            <a href="wedding.php" class="animate__animated animate__heartBeat">WEDDING</a>
-            <a href="prewedding.php" class="animate__animated animate__heartBeat">PRE WEDDING</a>
-            <a href="graduation.php" class="animate__animated animate__heartBeat">GRADUATION</a>
-            <a href="index.php" class="animate__animated animate__heartBeat">HOME</a>
-            <div class="navbar-left">
-                <a style="margin-left: 20px;" href="#HOME" class="animate__animated animate__heartBeat">Photographer</a>
-            </div>
-        </div>
+        <div id="navbaron"></div>
         <div class="mainbody">
             <h1>EVENT</h1>
             <br>
@@ -164,6 +128,10 @@
 </footer>
 </body>
 <script>
+    $.get("navbar.php", function(data){
+        $("#navbaron").replaceWith(data);
+    });
+
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }

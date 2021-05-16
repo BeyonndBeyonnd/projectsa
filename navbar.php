@@ -4,6 +4,7 @@
 
     error_reporting(0);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/contact.css?v=<?=time();?>">
+    <link rel="stylesheet" href="css/main.css?v=<?=time();?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
@@ -26,46 +27,46 @@
 </head>
 <body>
     <div class="main-container" >
-        <div id="navbaron"></div>
-        <div class="mainbody">
-            <h1>Contact</h1>
-            <br>
-            <h3>คุณสามารถติดต่อเราได้ตามที่อยู่นี้</h3>
-            <br>
-            <br>
-            <div class="bodybutton">
-                <button class="facebookbutton">
-                    <a href="https://www.facebook.com/profile.php?id">
-                        <i class="fa fa-facebook"></i>
-                        Facebook
-                    </a>        
-                </button>
-                <button class="linebutton">
-                    <a href="#">
-                        <img src="img/Icon-Line.png">Line
-                    </a>   
-                </button>
-            </div>
-            <br>
-            <br>              
-                <h3>Line ID: @ ######### ● 099-999-9998</h3>
-                <div class="linear">
-                    <img src="img/2.png">
-                </div>  
-        </div>
-    </div>
-</div>
-<footer>
-    <div class="foot">
-        <span>Copyright Website Photographer © 2021 Design by ท็อปโครตกีม</span>
-    </div>
-</footer>
-</body>
-<script>
+        <div id="navbar">
+        <?php if ($_SESSION["accountID"] == "")
+        {
+          ?>
+            <a href="login.php" class="animate__animated animate__heartBeat">เข้าสู่ระบบ</a>
 
-    $.get("navbar.php", function(data){
-        $("#navbaron").replaceWith(data);
-    });
+        <?php
+        }
+        else{
+        ?>
+            <button onclick="myFunction()" class="dropbtn"><i class="fa fa-user"></i> ยินดีต้อนรับ <?=$_SESSION["accountName"];?></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="forwork.php">จ้างงาน</a><br>
+                <a href="workschedule.php">ตารางงาน</a><br>
+                <?php
+                if($_SESSION['accountAdmin'] >= 1){
+                ?>
+                    <a href="admin.php">จัดการงาน</a><br>
+                <?php
+                }
+                ?>
+                <a onclick="clickme()" style="cursor:pointer;">ออกจากระบบ</a><br>
+            </div>
+        <?php
+            }
+        ?>
+            <a href="contact.php" class="animate__animated animate__heartBeat">CONTACT</a>
+            <a href="price.php" class="animate__animated animate__heartBeat">ราคาถ่ายภาพต่างๆ</a>
+            <a href="event.php" class="animate__animated animate__heartBeat">EVENT</a>
+            <a href="wedding.php" class="animate__animated animate__heartBeat">WEDDING</a>
+            <a href="prewedding.php" class="animate__animated animate__heartBeat">PRE WEDDING</a>
+            <a href="graduation.php" class="animate__animated animate__heartBeat">GRADUATION</a>
+            <a href="index.php" class="animate__animated animate__heartBeat">HOME</a>
+            <div class="navbar-left">
+                <a style="margin-left: 20px;" href="#HOME" class="animate__animated animate__wobble">Photographer</a>
+            </div>
+        </div>
+</div>
+</body>
+<script type="text/javascript">
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
@@ -83,6 +84,7 @@ window.onclick = function(event) {
     }
   }
 }
+
 function clickme(){
       swal({
           title: "ออกจากระบบ",
