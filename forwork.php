@@ -60,28 +60,7 @@
 
                             <label for="date">Date</label><br>
                             
-                            <select name="day" id="day">
-                            <option value=" ">Day</option>
-                            <?PHP for($i=1; $i<=31; $i++) {?>
-                            <option value="<?PHP echo $i?>"><?PHP echo $i?></option>
-                            <?PHP }?>
-                            </select>
-
-                            <select name="month" id="month">
-                            <option value=" ">Month</option>
-                            <?PHP $month = array("มกราคม ","กุมภาพันธ์ ","มีนาคม ","เมษายน ","พฤษภาคม ","มิถุนายน ","กรกฎาคม ","สิงหาคม ","กันยายน ","ตุลาคม ","พฤศจิกายน ","ธันวาคม ");?>
-                            <?PHP for($i=0; $i<sizeof($month); $i++) {?>
-                            <option value="<?PHP echo $i+1?>">
-                            <?PHP echo $month[$i]?></option>
-                            <?PHP }?>
-                            </select>
-
-                            <select name="year" id="year">
-                            <option value=" ">Year</option>
-                            <?PHP for($i=0; $i<=50; $i++) {?>
-                            <option value="<?PHP echo date("Y")+$i?>"><?PHP echo date("Y")+$i?></option>
-                            <?PHP }?>
-                            </select><br><br>
+                            <input type="date" id="birthday" name="birthday" ><br><br>
 
                             <label for="photo">Photographer</label><br>
 

@@ -33,8 +33,11 @@
     else if($_POST['time'] == "halfdayaf"){
         $daytype = "ครึ่งวันบ่าย";
     }
-
-    $sql2 = "SELECT * FROM calendar WHERE Day = '".trim($_POST['day'])."' AND Month = '".trim($_POST['month'])."' AND Year = '".trim($_POST['year'])."' AND DayType = '".trim($daytype)."'";
+    $_POST['birthday'] = explode('-', $_POST['birthday']);
+    $day = $_POST['birthday'][2];
+    $month   = $_POST['birthday'][1];
+    $year  = $_POST['birthday'][0];
+    $sql2 = "SELECT * FROM calendar WHERE Day = '".trim($day)."' AND Month = '".trim($month)."' AND Year = '".trim($year)."' AND DayType = '".trim($daytype)."'";
     $query2 = mysqli_query($conn,$sql2);
     $result2 = mysqli_fetch_array($query2,MYSQLI_ASSOC);
 
@@ -48,7 +51,7 @@
 
     $sql = "INSERT INTO work (Username,Name,Email,Telephone,Info,TypeWork,TimeType,PhotoName,Day,Month,Year,DateTime)
     VALUES ('".trim($_SESSION['accountName'])."','".trim($_POST['name'])."','".trim($_SESSION['accountEmail'])."','".trim($_POST['phone'])."','".trim($_POST['story'])."','".trim($_POST['work'])."',
-    '".trim($daytype)."','".trim($_POST['photo'])."','".trim($_POST['day'])."','".trim($_POST['month'])."','".trim($_POST['year'])."','".trim($today)."')";
+    '".trim($daytype)."','".trim($_POST['photo'])."','".trim($day)."','".trim($month)."','".trim($year)."','".trim($today)."')";
     $query = mysqli_query($conn,$sql);
     
     echo json_encode(array('status'=> 1,'message'=> 'Success'));

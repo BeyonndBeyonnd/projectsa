@@ -75,7 +75,7 @@
 		var calendar =  $('#calendar').fullCalendar({
 			header: {
 				left: 'title',
-				center: 'agendaDay,agendaWeek,month',
+				center: 'month',
 				right: 'prev,next today'
 			},
 			editable: true,
@@ -213,8 +213,8 @@
 		  border-radius: 6px;
         box-shadow: 0 1px 2px #C3C3C3;
 		-webkit-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.18);
--moz-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.18);
-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.18);
+		-moz-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.18);
+		box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.18);
 		}
 
 </style>
@@ -424,7 +424,7 @@ var defaults = {
 		prevYear: "<span class='fc-text-arrow'>«</span>",
 		nextYear: "<span class='fc-text-arrow'>»</span>",
 		today: 'today',
-		month: 'month',
+		month: 'ตารางงาน',
 		week: 'week',
 		day: 'day'
 	},

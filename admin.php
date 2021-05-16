@@ -53,6 +53,7 @@
                         <th width="150">Email</th>
                         <th width="150">เบอร์ติดต่อ</th>
                         <th width="150">ประเภทงานจ้าง</th>
+                        <th width="150">dd/mm/yyyy</th>
                         <th width="150">Time</th>
                         <th width="150">เพิ่มเติม</th>
                         <th width="150">ช่างภาพ</th>
@@ -69,6 +70,7 @@
                         <td><?php echo $row['Email']; ?></td>
                         <td><?php echo $row['Telephone']; ?></td>
                         <td><?php echo $row['TypeWork']; ?></td>
+                        <td><?php echo $row['Day']; ?>/<?php echo $row['Month']; ?>/<?php echo $row['Year']; ?></td>
                         <td><?php echo $row['TimeType']; ?></td>
                         <td><?php echo $row['Info']; ?></td>
                         <td><?php echo $row['PhotoName']; ?></td>
