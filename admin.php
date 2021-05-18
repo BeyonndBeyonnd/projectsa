@@ -74,8 +74,8 @@
                         <td><?php echo $row['TimeType']; ?></td>
                         <td><?php echo $row['Info']; ?></td>
                         <td><?php echo $row['PhotoName']; ?></td>
-                        <td><a href="Pass.php?username=<?php echo $row['Username'];?>&ID=<?php echo $row['ID']?>"><button type="button" class="btn btn-success">ยืนยัน</button></a> 
-                        <a href="NotPass.php?username=<?php echo $row['Username'];?>&ID=<?php echo $row['ID']?>"><button type="button" class="btn btn-danger">ยกเลิก</button></a></td>
+                        <td><a href="PassPhone.php?username=<?php echo $row['Username'];?>&ID=<?php echo $row['ID']?>"><button type="button" class="btn btn-success">ยืนยัน</button></a> 
+                        <a href="NotPassPhone.php?username=<?php echo $row['Username'];?>&ID=<?php echo $row['ID']?>"><button type="button" class="btn btn-danger">ยกเลิก</button></a></td>
                     </tr>
                     <?php
                     }

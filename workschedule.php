@@ -20,7 +20,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-<link href='assets/css/fullcalendar.css' rel='stylesheet' />
+<link href='assets/css/fullcalendar.css?v=<?=time();?>' rel='stylesheet' />
 <link href='assets/css/fullcalendar.print.css' rel='stylesheet' media='print' />
 <script src='assets/js/jquery-1.10.2.js' type="text/javascript"></script>
 <script src='assets/js/jquery-ui.custom.min.js' type="text/javascript"></script>
@@ -198,14 +198,23 @@
 
 </style>
 </head>
-<body>
-<div id='wrap'>
+<body style="background-color: #d1d1d1;">
+<div id="navbaron"></div>
+<div class="contrainsa">
+	<div id='wrap'>
 
-<div id='calendar'></div>
+		<div id='calendar'></div>
 
-<div style='clear:both'></div>
+		<div style='clear:both'></div>
+	</div>
 </div>
 
 
 </body>
+<script type="text/javascript">
+
+    $.get("navbar.php", function(data){
+        $("#navbaron").replaceWith(data);
+    });
+</script>
 </html>
