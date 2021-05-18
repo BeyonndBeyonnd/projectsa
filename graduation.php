@@ -60,12 +60,7 @@
             <br>
             <div class="Photo1">      
                 <div class="Box1">
-                    <div class="click-zoom">
-                        <label>
-                            <input type="checkbox">
-                            <img src="img/Graduation/grad1.jpg">
-                        </label>
-                    </div>
+                        <img src="img/Graduation/grad1.jpg">
                     <br>
                     <br>
                     <br>
@@ -75,12 +70,7 @@
                     
                 </div>
                 <div class="Box2">
-                    <div class="click-zoom">
-                        <label>
-                            <input type="checkbox">
-                            <img src="img/Graduation/grad2.jpg">
-                        </label>
-                    </div>
+                    <img src="img/Graduation/grad2.jpg">
                     <br>
                     <br>
                     <br>
@@ -89,12 +79,7 @@
                     <br>
                 </div>
                 <div class="Box3">
-                    <div class="click-zoom">
-                        <label>
-                            <input type="checkbox">
                             <img src="img/Graduation/grad3.jpg">
-                        </label>
-                    </div>
                     <br>
                     <br>
                     <br>
@@ -109,12 +94,7 @@
             <br>
             <div class="Photo2">
                 <div class="Box1">
-                    <div class="click-zoom">
-                        <label>
-                            <input type="checkbox">
                             <img src="img/Graduation/grad4.jpg">
-                        </label>
-                    </div>
                     <br>
                     <br>
                     <br>
@@ -123,12 +103,7 @@
                     <br>
                 </div>
                 <div class="Box2">
-                    <div class="click-zoom">
-                        <label>
-                            <input type="checkbox">
                             <img src="img/Graduation/grad5.jpg">
-                        </label>
-                    </div>
                     <br>
                     <br>
                     <br>
@@ -137,12 +112,7 @@
                     <br>
                 </div>
                 <div class="Box3">
-                    <div class="click-zoom">
-                        <label>
-                            <input type="checkbox">
                             <img src="img/Graduation/grad6.jpg">
-                        </label>
-                    </div>
                     <br>
                     <br>
                     <br>

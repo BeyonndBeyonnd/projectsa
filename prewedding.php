@@ -55,66 +55,36 @@
             <br><br>
             <div class="photo1">
                 <div class="Box1">
-                   <div class="click-zoom">
-                        <label>
-                            <input type="checkbox">
                             <img src="img/Pre wedding/pre1.jpg"><br><br><br>
                             <h3>PRE WEDDING</h3>
                             <h4>pre wedding</h4><br>  
-                        </label>
-                    </div>
                 </div>
                 <div class="Box2">
-                <div class="click-zoom">
-                        <label>
-                            <input type="checkbox">
                             <img src="img/Pre wedding/pre2.jpg"><br><br><br>
                             <h3>PRE WEDDING</h3>
                             <h4>pre wedding</h4><br>  
-                        </label>
-                    </div>
                 </div>    
                 <div class="Box3">
-                <div class="click-zoom">
-                        <label>
-                            <input type="checkbox">
                             <img src="img/Pre wedding/pre3.jpg"><br><br><br>
                             <h3>PRE WEDDING</h3>
-                            <h4>pre wedding</h4><br>  
-                        </label>  
-                </div>          
+                            <h4>pre wedding</h4><br>        
             </div>
             <br>
             <div class="photo2">
                 <div class="Box1">
-                <div class="click-zoom">
-                        <label>
-                            <input type="checkbox">
                             <img src="img/Pre wedding/pre4.jpg"><br><br><br>
                             <h3>PRE WEDDING</h3>
                             <h4>pre wedding</h4><br>  
-                        </label>   
-                    </div>
                 </div>
                 <div class="Box2">
-                <div class="click-zoom">
-                        <label>
-                            <input type="checkbox">
                             <img src="img/Pre wedding/pre5.jpg"><br><br><br>
                             <h3>PRE WEDDING</h3>
                             <h4>pre wedding</h4><br>  
-                        </label>  
-                    </div>
                 </div>    
                 <div class="Box3">
-                <div class="click-zoom">
-                        <label>
-                            <input type="checkbox">
                             <img src="img/Pre wedding/pre6.jpg"><br><br><br>
                             <h3>PRE WEDDING</h3>
                             <h4>pre wedding</h4><br>  
-                        </label>  
-                    </div>
                 </div>          
             </div>
         </div>
