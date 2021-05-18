@@ -39,7 +39,7 @@
                         <div class="Box1_1">
                             <label for="name" class="label2">Name</label><br>
                             <input type="text" id="name" name="name" placeholder="ชื่อ-นามสกุล"><br><br>
-                            <label for="phone" class="label2">Phone</label><br>
+                            <label for="phone" class="label2">Phone (ใช้เบอร์จริงที่สามารถรับ SMS ได้)</label><br>
                             <input type="text" id="phone" name="phone" placeholder="Phone number"><br><br>
                             <label for="work">Choose a work</label><br>
 
