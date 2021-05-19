@@ -189,6 +189,22 @@ $(document).ready(function()
                             }
                     });
                 }
+                else if(result.status == 5)
+                {
+                    swal({
+                        title: "ผิดพลาด!",
+                        text: "คุณจำเป็นต้องเลือกวันที่จ้างงาน!",
+                        type: "error",
+                        showButtonCancel: true,
+                    }, function(isConfirm) {
+                            if(isConfirm){
+                                window.location = "forwork.php";
+                            }
+                            if(isCancel){
+                                window.location = "forwork.php";
+                            }
+                    });
+                }
             }
         });
 

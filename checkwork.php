@@ -24,6 +24,18 @@
 
     $daytype = "none";
 
+    $_POST['birthday'] = explode('-', $_POST['birthday']);
+    $day = $_POST['birthday'][2];
+    $month   = $_POST['birthday'][1];
+    $year  = $_POST['birthday'][0];
+
+
+    if($day == 0 && $month == 0 && $year == 0){
+        echo json_encode(array('status'=> 5,'message'=> 'Fail'));
+        exit();
+    }
+
+
     if($_POST['time'] == "allday"){
         $daytype = "เต็มวัน";
     }
@@ -33,10 +45,7 @@
     else if($_POST['time'] == "halfdayaf"){
         $daytype = "ครึ่งวันบ่าย";
     }
-    $_POST['birthday'] = explode('-', $_POST['birthday']);
-    $day = $_POST['birthday'][2];
-    $month   = $_POST['birthday'][1];
-    $year  = $_POST['birthday'][0];
+    
     $sql2 = "SELECT * FROM calendar WHERE Day = '".trim($day)."' AND Month = '".trim($month)."' AND Year = '".trim($year)."' AND DayType = '".trim($daytype)."'";
     $query2 = mysqli_query($conn,$sql2);
     $result2 = mysqli_fetch_array($query2,MYSQLI_ASSOC);
